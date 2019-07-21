@@ -1,11 +1,13 @@
 # Cyclone10_dev
+
 Cyclone10 Development Project
 
-# Dependency
+## Dependency
+
 - VHDL 1993
 - Verilog-2001
 
-# Setup
+## Setup
 
 RTL Tool
 
@@ -15,7 +17,7 @@ Simulation Tool
 
 - ModelSim - INTEL FPGA STARTER EDITION 10.5b
 
-# Usage
+## Usage
 
 1. Launch 'Intel Quartus Prime'
     - Open 'top.qpf' file
@@ -26,10 +28,15 @@ Simulation Tool
 1. Write Designe
     - Open 'Programmer' Click Start
 
-# License
+## License
+
 This software is released under the MIT License, see LICENSE.
 
-# Authors
-CCWO
+## Authors
 
-# References
+CCWO ([Development Blog](https://ccwo-embed.hatenablog.com/))
+
+## References
+
+- [http://www.kumikomi.net/archives/2009/08/vhdl.php](http://www.kumikomi.net/archives/2009/08/vhdl.php)
+- [http://www.info.shonan-it.ac.jp/lecture/jikken/VHDL.pdf](http://www.info.shonan-it.ac.jp/lecture/jikken/VHDL.pdf)
