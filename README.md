@@ -38,5 +38,8 @@ CCWO ([Development Blog](https://ccwo-embed.hatenablog.com/))
 
 ## References
 
-- [http://www.kumikomi.net/archives/2009/08/vhdl.php](http://www.kumikomi.net/archives/2009/08/vhdl.php)
-- [http://www.info.shonan-it.ac.jp/lecture/jikken/VHDL.pdf](http://www.info.shonan-it.ac.jp/lecture/jikken/VHDL.pdf)
+- board info
+  - [http://www.alinx.vip:81/ug/AX1025_UG.pdf](http://www.alinx.vip:81/ug/AX1025_UG.pdf)
+- VHDL docs
+  - [http://www.kumikomi.net/archives/2009/08/vhdl.php](http://www.kumikomi.net/archives/2009/08/vhdl.php)
+  - [http://www.info.shonan-it.ac.jp/lecture/jikken/VHDL.pdf](http://www.info.shonan-it.ac.jp/lecture/jikken/VHDL.pdf)
