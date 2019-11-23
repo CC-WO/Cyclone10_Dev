@@ -157,28 +157,30 @@ led_out2 <= <GND>
 
 
 |top|LED_KEY2:U_LED_KEY2
-rst => led_sftreg[0].PRESET
-rst => led_sftreg[1].PRESET
-rst => led_sftreg[2].PRESET
-rst => led_sftreg[3].PRESET
-rst => led_cnt[0].ACLR
-rst => led_cnt[1].ACLR
-rst => led_cnt[2].ACLR
-rst => led_cnt[3].ACLR
-rst => led_refresh.PRESET
-clk => led_sftreg[0].CLK
-clk => led_sftreg[1].CLK
-clk => led_sftreg[2].CLK
-clk => led_sftreg[3].CLK
-clk => led_cnt[0].CLK
-clk => led_cnt[1].CLK
-clk => led_cnt[2].CLK
-clk => led_cnt[3].CLK
-clk => led_refresh.CLK
-led_out1[0] <= led_sftreg[0].DB_MAX_OUTPUT_PORT_TYPE
-led_out1[1] <= led_sftreg[1].DB_MAX_OUTPUT_PORT_TYPE
-led_out1[2] <= led_sftreg[2].DB_MAX_OUTPUT_PORT_TYPE
-led_out1[3] <= led_sftreg[3].DB_MAX_OUTPUT_PORT_TYPE
+rst => led_cnt2[0].ACLR
+rst => led_cnt2[1].ACLR
+rst => led_cnt1[0].ACLR
+rst => led_cnt1[1].ACLR
+rst => led_cnt1[2].ACLR
+rst => led_cnt1[3].ACLR
+rst => led_cnt1[4].ACLR
+rst => led_cnt1[5].ACLR
+rst => led_cnt1[6].ACLR
+rst => led_cnt1[7].ACLR
+clk => led_cnt2[0].CLK
+clk => led_cnt2[1].CLK
+clk => led_cnt1[0].CLK
+clk => led_cnt1[1].CLK
+clk => led_cnt1[2].CLK
+clk => led_cnt1[3].CLK
+clk => led_cnt1[4].CLK
+clk => led_cnt1[5].CLK
+clk => led_cnt1[6].CLK
+clk => led_cnt1[7].CLK
+led_out1[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+led_out1[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+led_out1[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+led_out1[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 led_out2 <= <GND>
 
 
