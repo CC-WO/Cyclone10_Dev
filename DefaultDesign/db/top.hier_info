@@ -1,0 +1,248 @@
+|top
+clk => clock_divider:U_CLOCK_1ms.clk
+KEY[0] => m_sele[0].ACLR
+KEY[0] => m_sele[1].ACLR
+KEY[0] => m_sele[2].ACLR
+KEY[0] => m_sele[3].ACLR
+KEY[0] => clock_divider:U_CLOCK_1ms.rst
+KEY[0] => chatter:U_KEY1.swin
+KEY[0] => LED_KEY1:U_LED_KEY1.rst
+KEY[0] => LED_KEY2:U_LED_KEY2.rst
+KEY[0] => LED_KEY3:U_LED_KEY3.rst
+KEY[0] => LED_KEY4:U_LED_KEY4.rst
+KEY[1] => chatter:U_KEY2.swin
+KEY[2] => chatter:U_KEY3.swin
+KEY[3] => chatter:U_KEY4.swin
+LED_BO << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+LED[0] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+LED[3] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|clock_divider:U_CLOCK_1ms
+rst => clk_tmp.ACLR
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+rst => cnt[3].ACLR
+rst => cnt[4].ACLR
+rst => cnt[5].ACLR
+rst => cnt[6].ACLR
+rst => cnt[7].ACLR
+rst => cnt[8].ACLR
+rst => cnt[9].ACLR
+rst => cnt[10].ACLR
+rst => cnt[11].ACLR
+rst => cnt[12].ACLR
+rst => cnt[13].ACLR
+rst => cnt[14].ACLR
+rst => cnt[15].ACLR
+clk => clk_tmp.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+clk => cnt[15].CLK
+divide[0] => ~NO_FANOUT~
+divide[1] => Add0.IN30
+divide[2] => Add0.IN29
+divide[3] => Add0.IN28
+divide[4] => Add0.IN27
+divide[5] => Add0.IN26
+divide[6] => Add0.IN25
+divide[7] => Add0.IN24
+divide[8] => Add0.IN23
+divide[9] => Add0.IN22
+divide[10] => Add0.IN21
+divide[11] => Add0.IN20
+divide[12] => Add0.IN19
+divide[13] => Add0.IN18
+divide[14] => Add0.IN17
+divide[15] => Add0.IN16
+clock_out <= clk_tmp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|chatter:U_KEY1
+clk => sw_ena.CLK
+clk => chatt3[0].CLK
+clk => chatt3[1].CLK
+clk => chatt3[2].CLK
+clk => chatt3[3].CLK
+clk => chatt1[0].CLK
+clk => chatt1[1].CLK
+clk => chatt1[2].CLK
+clk => chatt1[3].CLK
+swin => chatt1[0].DATAIN
+swout <= sw_ena.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|chatter:U_KEY2
+clk => sw_ena.CLK
+clk => chatt3[0].CLK
+clk => chatt3[1].CLK
+clk => chatt3[2].CLK
+clk => chatt3[3].CLK
+clk => chatt1[0].CLK
+clk => chatt1[1].CLK
+clk => chatt1[2].CLK
+clk => chatt1[3].CLK
+swin => chatt1[0].DATAIN
+swout <= sw_ena.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|chatter:U_KEY3
+clk => sw_ena.CLK
+clk => chatt3[0].CLK
+clk => chatt3[1].CLK
+clk => chatt3[2].CLK
+clk => chatt3[3].CLK
+clk => chatt1[0].CLK
+clk => chatt1[1].CLK
+clk => chatt1[2].CLK
+clk => chatt1[3].CLK
+swin => chatt1[0].DATAIN
+swout <= sw_ena.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|chatter:U_KEY4
+clk => sw_ena.CLK
+clk => chatt3[0].CLK
+clk => chatt3[1].CLK
+clk => chatt3[2].CLK
+clk => chatt3[3].CLK
+clk => chatt1[0].CLK
+clk => chatt1[1].CLK
+clk => chatt1[2].CLK
+clk => chatt1[3].CLK
+swin => chatt1[0].DATAIN
+swout <= sw_ena.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|LED_KEY1:U_LED_KEY1
+rst => led.ACLR
+rst => led_cnt[0].ACLR
+rst => led_cnt[1].ACLR
+rst => led_cnt[2].ACLR
+rst => led_cnt[3].ACLR
+rst => led_cnt[4].ACLR
+rst => led_cnt[5].ACLR
+rst => led_cnt[6].ACLR
+rst => led_cnt[7].ACLR
+clk => led.CLK
+clk => led_cnt[0].CLK
+clk => led_cnt[1].CLK
+clk => led_cnt[2].CLK
+clk => led_cnt[3].CLK
+clk => led_cnt[4].CLK
+clk => led_cnt[5].CLK
+clk => led_cnt[6].CLK
+clk => led_cnt[7].CLK
+led_out1[0] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led_out1[1] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led_out1[2] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led_out1[3] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led_out2 <= <GND>
+
+
+|top|LED_KEY2:U_LED_KEY2
+rst => led_sftreg[0].PRESET
+rst => led_sftreg[1].PRESET
+rst => led_sftreg[2].PRESET
+rst => led_sftreg[3].PRESET
+rst => led_cnt[0].ACLR
+rst => led_cnt[1].ACLR
+rst => led_cnt[2].ACLR
+rst => led_cnt[3].ACLR
+rst => led_refresh.PRESET
+clk => led_sftreg[0].CLK
+clk => led_sftreg[1].CLK
+clk => led_sftreg[2].CLK
+clk => led_sftreg[3].CLK
+clk => led_cnt[0].CLK
+clk => led_cnt[1].CLK
+clk => led_cnt[2].CLK
+clk => led_cnt[3].CLK
+clk => led_refresh.CLK
+led_out1[0] <= led_sftreg[0].DB_MAX_OUTPUT_PORT_TYPE
+led_out1[1] <= led_sftreg[1].DB_MAX_OUTPUT_PORT_TYPE
+led_out1[2] <= led_sftreg[2].DB_MAX_OUTPUT_PORT_TYPE
+led_out1[3] <= led_sftreg[3].DB_MAX_OUTPUT_PORT_TYPE
+led_out2 <= <GND>
+
+
+|top|LED_KEY3:U_LED_KEY3
+rst => led.ACLR
+rst => led_cnt[0].ACLR
+rst => led_cnt[1].ACLR
+rst => led_cnt[2].ACLR
+rst => led_cnt[3].ACLR
+rst => led_cnt[4].ACLR
+rst => led_cnt[5].ACLR
+rst => led_cnt[6].ACLR
+rst => led_cnt[7].ACLR
+rst => led_reg[0].ACLR
+rst => led_reg[1].ACLR
+rst => led_reg[2].ACLR
+rst => led_reg[3].ACLR
+clk => led.CLK
+clk => led_cnt[0].CLK
+clk => led_cnt[1].CLK
+clk => led_cnt[2].CLK
+clk => led_cnt[3].CLK
+clk => led_cnt[4].CLK
+clk => led_cnt[5].CLK
+clk => led_cnt[6].CLK
+clk => led_cnt[7].CLK
+clk => led_reg[0].CLK
+clk => led_reg[1].CLK
+clk => led_reg[2].CLK
+clk => led_reg[3].CLK
+key => led_reg[3].ENA
+key => led_reg[2].ENA
+key => led_reg[1].ENA
+key => led_reg[0].ENA
+led_out1[0] <= led_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+led_out1[1] <= led_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+led_out1[2] <= led_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+led_out1[3] <= led_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+led_out2 <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|LED_KEY4:U_LED_KEY4
+rst => led.ACLR
+rst => led_cnt[0].ACLR
+rst => led_cnt[1].ACLR
+rst => led_cnt[2].ACLR
+rst => led_cnt[3].ACLR
+rst => led_cnt[4].ACLR
+rst => led_cnt[5].ACLR
+rst => led_cnt[6].ACLR
+rst => led_cnt[7].ACLR
+clk => led.CLK
+clk => led_cnt[0].CLK
+clk => led_cnt[1].CLK
+clk => led_cnt[2].CLK
+clk => led_cnt[3].CLK
+clk => led_cnt[4].CLK
+clk => led_cnt[5].CLK
+clk => led_cnt[6].CLK
+clk => led_cnt[7].CLK
+led_out1[0] <= <GND>
+led_out1[1] <= <GND>
+led_out1[2] <= <GND>
+led_out1[3] <= <GND>
+led_out2 <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+
