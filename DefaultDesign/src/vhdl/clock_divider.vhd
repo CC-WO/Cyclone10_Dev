@@ -43,6 +43,8 @@ begin
     elsif (clk'event and clk = '1') then
       if (cnt = divide_half) then
         clk_tmp <= not clk_tmp;
+      else
+        clk_tmp <= clk_tmp;
       end if;
     end if;
   end process ; -- CLOCK_OUT

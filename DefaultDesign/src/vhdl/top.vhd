@@ -26,8 +26,8 @@ architecture RTL of top is
   component chatter is
     port (
       clk    : in  std_logic;
-      swin   : in  std_logic;
-      swout  : out std_logic
+      key    : in  std_logic;
+      pushed : out std_logic
     );
   end component;
 

@@ -5,8 +5,8 @@ use ieee.std_logic_1164.all;
 entity chatter is
   port (
     clk    : in  std_logic;  -- 1kHz
-    swin   : in  std_logic;
-    swout  : out std_logic
+    key    : in  std_logic;
+    pushed : out std_logic
   );
 end chatter;
 
@@ -24,7 +24,7 @@ begin
   CHATTER1 : process(clk)
   begin
     if (clk'event and clk = '1') then
-      chatt1 <= chatt1( 2 downto 0) & swin;
+      chatt1 <= chatt1( 2 downto 0) & key;
     end if;
   end process; -- CHATTER1
 
@@ -45,6 +45,6 @@ begin
   end process; -- CHATTER3
 
   -- SWOUT
-  swout <= sw_ena;
+  pushed <= sw_ena;
 
 end RTL ; -- RTL
