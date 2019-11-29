@@ -1,11 +1,11 @@
 |top
 RST => m_rst.IN0
 CLK => CLK.IN8
-LED_BO <= <GND>
-LED[0] <= <GND>
-LED[1] <= <GND>
-LED[2] <= <GND>
-LED[3] <= <GND>
+LED_BO << <GND>
+LED[0] << <GND>
+LED[1] << <GND>
+LED[2] << <GND>
+LED[3] << <GND>
 KEY[0] => m_key[0].IN1
 KEY[1] => m_key[1].IN1
 KEY[2] => m_key[2].IN1
@@ -159,22 +159,22 @@ PA[4] <= PC:U_PC.PA
 PA[5] <= PC:U_PC.PA
 PA[6] <= PC:U_PC.PA
 PA[7] <= PC:U_PC.PA
-LOADBUS[0] <> LOGIC_74AC125:U_JP_TRISTATE1.O
-LOADBUS[0] <> LOGIC_74AC125:U_JP_TRISTATE2.O
-LOADBUS[0] <> LOGIC_74AC125:U_IR_TRISTATE1.O
-LOADBUS[0] <> LOGIC_74AC125:U_IR_TRISTATE2.O
-LOADBUS[1] <> LOGIC_74AC125:U_JP_TRISTATE1.O
-LOADBUS[1] <> LOGIC_74AC125:U_JP_TRISTATE2.O
-LOADBUS[1] <> LOGIC_74AC125:U_IR_TRISTATE1.O
-LOADBUS[1] <> LOGIC_74AC125:U_IR_TRISTATE2.O
-LOADBUS[2] <> LOGIC_74AC125:U_JP_TRISTATE1.O
-LOADBUS[2] <> LOGIC_74AC125:U_JP_TRISTATE2.O
-LOADBUS[2] <> LOGIC_74AC125:U_IR_TRISTATE1.O
-LOADBUS[2] <> LOGIC_74AC125:U_IR_TRISTATE2.O
-LOADBUS[3] <> LOGIC_74AC125:U_JP_TRISTATE1.O
-LOADBUS[3] <> LOGIC_74AC125:U_JP_TRISTATE2.O
-LOADBUS[3] <> LOGIC_74AC125:U_IR_TRISTATE1.O
-LOADBUS[3] <> LOGIC_74AC125:U_IR_TRISTATE2.O
+LOADBUS[0] <> LOGIC_74HC125:U_JP_TRISTATE1.O
+LOADBUS[0] <> LOGIC_74HC125:U_JP_TRISTATE2.O
+LOADBUS[0] <> LOGIC_74HC125:U_IR_TRISTATE1.O
+LOADBUS[0] <> LOGIC_74HC125:U_IR_TRISTATE2.O
+LOADBUS[1] <> LOGIC_74HC125:U_JP_TRISTATE1.O
+LOADBUS[1] <> LOGIC_74HC125:U_JP_TRISTATE2.O
+LOADBUS[1] <> LOGIC_74HC125:U_IR_TRISTATE1.O
+LOADBUS[1] <> LOGIC_74HC125:U_IR_TRISTATE2.O
+LOADBUS[2] <> LOGIC_74HC125:U_JP_TRISTATE1.O
+LOADBUS[2] <> LOGIC_74HC125:U_JP_TRISTATE2.O
+LOADBUS[2] <> LOGIC_74HC125:U_IR_TRISTATE1.O
+LOADBUS[2] <> LOGIC_74HC125:U_IR_TRISTATE2.O
+LOADBUS[3] <> LOGIC_74HC125:U_JP_TRISTATE1.O
+LOADBUS[3] <> LOGIC_74HC125:U_JP_TRISTATE2.O
+LOADBUS[3] <> LOGIC_74HC125:U_IR_TRISTATE1.O
+LOADBUS[3] <> LOGIC_74HC125:U_IR_TRISTATE2.O
 STOREBUS_JP1[0] <> LOGIC_74HC161:U_COUNTER1.DATAIN
 STOREBUS_JP1[1] <> LOGIC_74HC161:U_COUNTER1.DATAIN
 STOREBUS_JP1[2] <> LOGIC_74HC161:U_COUNTER1.DATAIN
@@ -441,7 +441,7 @@ COUNTER[2] <= m_COUNTER[2].DB_MAX_OUTPUT_PORT_TYPE
 COUNTER[3] <= m_COUNTER[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTERS:U_REGISTERS|LOGIC_74AC125:U_JP_TRISTATE1
+|top|REGISTERS:U_REGISTERS|LOGIC_74HC125:U_JP_TRISTATE1
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -456,7 +456,7 @@ O[2] <= O[2].DB_MAX_OUTPUT_PORT_TYPE
 O[3] <= O[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTERS:U_REGISTERS|LOGIC_74AC125:U_JP_TRISTATE2
+|top|REGISTERS:U_REGISTERS|LOGIC_74HC125:U_JP_TRISTATE2
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -471,7 +471,7 @@ O[2] <= O[2].DB_MAX_OUTPUT_PORT_TYPE
 O[3] <= O[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTERS:U_REGISTERS|LOGIC_74AC125:U_IR_TRISTATE1
+|top|REGISTERS:U_REGISTERS|LOGIC_74HC125:U_IR_TRISTATE1
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -486,7 +486,7 @@ O[2] <= O[2].DB_MAX_OUTPUT_PORT_TYPE
 O[3] <= O[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTERS:U_REGISTERS|LOGIC_74AC125:U_IR_TRISTATE2
+|top|REGISTERS:U_REGISTERS|LOGIC_74HC125:U_IR_TRISTATE2
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -532,7 +532,7 @@ ADD[6] => m_MEM2_A[6].IN2
 ADD[7] => m_MEM2_A[7].IN2
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1
 CLK => sramclk.CLK
 A[0] => A[0].IN1
 A[1] => A[1].IN1
@@ -574,7 +574,7 @@ IO[6] <> IO[6]
 IO[7] <> IO[7]
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1|SRAM:U_MEMORY
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1|SRAM:U_MEMORY
 address[0] => address[0].IN1
 address[1] => address[1].IN1
 address[2] => address[2].IN1
@@ -611,7 +611,7 @@ q[6] <= altsyncram:altsyncram_component.q_a
 q[7] <= altsyncram:altsyncram_component.q_a
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1|SRAM:U_MEMORY|altsyncram:altsyncram_component
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1|SRAM:U_MEMORY|altsyncram:altsyncram_component
 wren_a => altsyncram_f7g1:auto_generated.wren_a
 rden_a => altsyncram_f7g1:auto_generated.rden_a
 wren_b => ~NO_FANOUT~
@@ -667,7 +667,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -1209,7 +1209,7 @@ wren_a => _.IN1
 wren_a => wren_a_store.DATAIN
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:decode3
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:decode3
 data[0] => w_anode226w[1].IN0
 data[0] => w_anode239w[1].IN1
 data[0] => w_anode247w[1].IN0
@@ -1228,7 +1228,7 @@ eq[2] <= w_anode247w[2].DB_MAX_OUTPUT_PORT_TYPE
 eq[3] <= w_anode255w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:rden_decode
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:rden_decode
 data[0] => w_anode226w[1].IN0
 data[0] => w_anode239w[1].IN1
 data[0] => w_anode247w[1].IN0
@@ -1247,7 +1247,7 @@ eq[2] <= w_anode247w[2].DB_MAX_OUTPUT_PORT_TYPE
 eq[3] <= w_anode255w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|mux_vmb:mux2
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM1|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|mux_vmb:mux2
 data[0] => _.IN0
 data[0] => _.IN0
 data[1] => _.IN0
@@ -1386,7 +1386,7 @@ sel[1] => _.IN0
 sel[1] => _.IN0
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2
 CLK => sramclk.CLK
 A[0] => A[0].IN1
 A[1] => A[1].IN1
@@ -1428,7 +1428,7 @@ IO[6] <> IO[6]
 IO[7] <> IO[7]
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2|SRAM:U_MEMORY
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2|SRAM:U_MEMORY
 address[0] => address[0].IN1
 address[1] => address[1].IN1
 address[2] => address[2].IN1
@@ -1465,7 +1465,7 @@ q[6] <= altsyncram:altsyncram_component.q_a
 q[7] <= altsyncram:altsyncram_component.q_a
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2|SRAM:U_MEMORY|altsyncram:altsyncram_component
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2|SRAM:U_MEMORY|altsyncram:altsyncram_component
 wren_a => altsyncram_f7g1:auto_generated.wren_a
 rden_a => altsyncram_f7g1:auto_generated.rden_a
 wren_b => ~NO_FANOUT~
@@ -1521,7 +1521,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -2063,7 +2063,7 @@ wren_a => _.IN1
 wren_a => wren_a_store.DATAIN
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:decode3
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:decode3
 data[0] => w_anode226w[1].IN0
 data[0] => w_anode239w[1].IN1
 data[0] => w_anode247w[1].IN0
@@ -2082,7 +2082,7 @@ eq[2] <= w_anode247w[2].DB_MAX_OUTPUT_PORT_TYPE
 eq[3] <= w_anode255w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:rden_decode
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:rden_decode
 data[0] => w_anode226w[1].IN0
 data[0] => w_anode239w[1].IN1
 data[0] => w_anode247w[1].IN0
@@ -2101,7 +2101,7 @@ eq[2] <= w_anode247w[2].DB_MAX_OUTPUT_PORT_TYPE
 eq[3] <= w_anode255w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_MEM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|mux_vmb:mux2
+|top|MEMORY:U_MEMORY_BLOCK|LOGIC_SRM2B256SLMX:U_SRAM2|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|mux_vmb:mux2
 data[0] => _.IN0
 data[0] => _.IN0
 data[1] => _.IN0
@@ -2343,7 +2343,7 @@ COM[1] <= m_COM.DB_MAX_OUTPUT_PORT_TYPE
 COM[2] <= m_COM.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|INSTRUCTION_DECODER:U_INSTRUCTION_DECODER|LOGIC_74HC221:U_MULTIVIBIVRATOR
+|top|INSTRUCTION_DECODER:U_INSTRUCTION_DECODER|LOGIC_74HC221:U_MULTIVIBRATOR
 CLK => m_Q.CLK
 nA => always0.IN0
 nA => m_Q.IN0
@@ -2369,29 +2369,29 @@ CLK => CLK.IN5
 nSK_EN => nSK_EN.IN1
 SP_D_nU => SP_D_nU.IN5
 SPC => ~NO_FANOUT~
-SP[0] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[0] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[0] <> SP[0]
-SP[1] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[1] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[1] <> SP[1]
-SP[2] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[2] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[2] <> SP[2]
-SP[3] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[3] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[3] <> SP[3]
-SP[4] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[4] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[4] <> SP[4]
-SP[5] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[5] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[5] <> SP[5]
-SP[6] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[6] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[6] <> SP[6]
-SP[7] <> LOGIC_SRM2B256SLMX:SRAM.A
+SP[7] <> LOGIC_SRM2B256SLMX:U_SRAM.A
 SP[7] <> SP[7]
-STOREBUS[0] <> LOGIC_74HC245:TRISTATE.A
-STOREBUS[1] <> LOGIC_74HC245:TRISTATE.A
-STOREBUS[2] <> LOGIC_74HC245:TRISTATE.A
-STOREBUS[3] <> LOGIC_74HC245:TRISTATE.A
+STOREBUS[0] <> LOGIC_74HC245:U_TRISTATE.A
+STOREBUS[1] <> LOGIC_74HC245:U_TRISTATE.A
+STOREBUS[2] <> LOGIC_74HC245:U_TRISTATE.A
+STOREBUS[3] <> LOGIC_74HC245:U_TRISTATE.A
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM
 CLK => sramclk.CLK
 A[0] => A[0].IN1
 A[1] => A[1].IN1
@@ -2433,7 +2433,7 @@ IO[6] <> IO[6]
 IO[7] <> IO[7]
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM|SRAM:U_MEMORY
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM|SRAM:U_MEMORY
 address[0] => address[0].IN1
 address[1] => address[1].IN1
 address[2] => address[2].IN1
@@ -2470,7 +2470,7 @@ q[6] <= altsyncram:altsyncram_component.q_a
 q[7] <= altsyncram:altsyncram_component.q_a
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component
 wren_a => altsyncram_f7g1:auto_generated.wren_a
 rden_a => altsyncram_f7g1:auto_generated.rden_a
 wren_b => ~NO_FANOUT~
@@ -2526,7 +2526,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -3068,7 +3068,7 @@ wren_a => _.IN1
 wren_a => wren_a_store.DATAIN
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:decode3
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:decode3
 data[0] => w_anode226w[1].IN0
 data[0] => w_anode239w[1].IN1
 data[0] => w_anode247w[1].IN0
@@ -3087,7 +3087,7 @@ eq[2] <= w_anode247w[2].DB_MAX_OUTPUT_PORT_TYPE
 eq[3] <= w_anode255w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:rden_decode
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|decode_fsa:rden_decode
 data[0] => w_anode226w[1].IN0
 data[0] => w_anode239w[1].IN1
 data[0] => w_anode247w[1].IN0
@@ -3106,7 +3106,7 @@ eq[2] <= w_anode247w[2].DB_MAX_OUTPUT_PORT_TYPE
 eq[3] <= w_anode255w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|mux_vmb:mux2
+|top|SP:U_STACK_POINTER|LOGIC_SRM2B256SLMX:U_SRAM|SRAM:U_MEMORY|altsyncram:altsyncram_component|altsyncram_f7g1:auto_generated|mux_vmb:mux2
 data[0] => _.IN0
 data[0] => _.IN0
 data[1] => _.IN0
@@ -3245,7 +3245,7 @@ sel[1] => _.IN0
 sel[1] => _.IN0
 
 
-|top|SP:U_STACK_POINTER|LOGIC_74HC245:TRISTATE
+|top|SP:U_STACK_POINTER|LOGIC_74HC245:U_TRISTATE
 DIR => m_A[0].OE
 DIR => m_A[1].OE
 DIR => m_A[2].OE
@@ -3373,13 +3373,13 @@ STOREDATA[0] => STOREDATA[0].IN1
 STOREDATA[1] => STOREDATA[1].IN1
 STOREDATA[2] => STOREDATA[2].IN1
 STOREDATA[3] => STOREDATA[3].IN1
-LOADDATA[0] <= LOGIC_74AC125:U_74AC125.O
-LOADDATA[1] <= LOGIC_74AC125:U_74AC125.O
-LOADDATA[2] <= LOGIC_74AC125:U_74AC125.O
-LOADDATA[3] <= LOGIC_74AC125:U_74AC125.O
+LOADDATA[0] <= LOGIC_74HC125:U_TRISTATE.O
+LOADDATA[1] <= LOGIC_74HC125:U_TRISTATE.O
+LOADDATA[2] <= LOGIC_74HC125:U_TRISTATE.O
+LOADDATA[3] <= LOGIC_74HC125:U_TRISTATE.O
 
 
-|top|REGISTER_A:U_REGSITERA|LOGIC_74HC161:U_74HC161
+|top|REGISTER_A:U_REGSITERA|LOGIC_74HC161:U_COUNTER
 CK => m_CO.CLK
 CK => m_COUNTER[0].CLK
 CK => m_COUNTER[1].CLK
@@ -3406,7 +3406,7 @@ COUNTER[2] <= m_COUNTER[2].DB_MAX_OUTPUT_PORT_TYPE
 COUNTER[3] <= m_COUNTER[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTER_A:U_REGSITERA|LOGIC_74AC125:U_74AC125
+|top|REGISTER_A:U_REGSITERA|LOGIC_74HC125:U_TRISTATE
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -3430,17 +3430,17 @@ STOREDATA[0] => STOREDATA[0].IN1
 STOREDATA[1] => STOREDATA[1].IN1
 STOREDATA[2] => STOREDATA[2].IN1
 STOREDATA[3] => STOREDATA[3].IN1
-LOADDATA[0] <= LOGIC_74AC125:U_74AC125.O
-LOADDATA[1] <= LOGIC_74AC125:U_74AC125.O
-LOADDATA[2] <= LOGIC_74AC125:U_74AC125.O
-LOADDATA[3] <= LOGIC_74AC125:U_74AC125.O
+LOADDATA[0] <= LOGIC_74HC125:U_TRISTATE.O
+LOADDATA[1] <= LOGIC_74HC125:U_TRISTATE.O
+LOADDATA[2] <= LOGIC_74HC125:U_TRISTATE.O
+LOADDATA[3] <= LOGIC_74HC125:U_TRISTATE.O
 COUNTER[0] <= m_REGOUT[0].DB_MAX_OUTPUT_PORT_TYPE
 COUNTER[1] <= m_REGOUT[1].DB_MAX_OUTPUT_PORT_TYPE
 COUNTER[2] <= m_REGOUT[2].DB_MAX_OUTPUT_PORT_TYPE
 COUNTER[3] <= m_REGOUT[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTER_B:U_REGSITERB|LOGIC_74HC161:U_74HC161
+|top|REGISTER_B:U_REGSITERB|LOGIC_74HC161:U_COUNTER
 CK => m_CO.CLK
 CK => m_COUNTER[0].CLK
 CK => m_COUNTER[1].CLK
@@ -3467,7 +3467,7 @@ COUNTER[2] <= m_COUNTER[2].DB_MAX_OUTPUT_PORT_TYPE
 COUNTER[3] <= m_COUNTER[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|REGISTER_B:U_REGSITERB|LOGIC_74AC125:U_74AC125
+|top|REGISTER_B:U_REGSITERB|LOGIC_74HC125:U_TRISTATE
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -3524,7 +3524,7 @@ SUM[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 SUM[3] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|ALU:U_ALU|LOGIC_74AC125:U_ADDER_TRISTATE
+|top|ALU:U_ALU|LOGIC_74HC125:U_ADDER_TRISTATE
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -3554,7 +3554,7 @@ Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
 Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|ALU:U_ALU|LOGIC_74AC125:U_AND_TRISTATE
+|top|ALU:U_ALU|LOGIC_74HC125:U_AND_TRISTATE
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -3584,7 +3584,7 @@ Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
 Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|ALU:U_ALU|LOGIC_74AC125:U_OR_TRISTATE
+|top|ALU:U_ALU|LOGIC_74HC125:U_OR_TRISTATE
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE
@@ -3614,7 +3614,7 @@ X[2] <= X.DB_MAX_OUTPUT_PORT_TYPE
 X[3] <= X.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|top|ALU:U_ALU|LOGIC_74AC125:U_XOR_TRISTATE
+|top|ALU:U_ALU|LOGIC_74HC125:U_XOR_TRISTATE
 nA[0] => O[0].OE
 nA[1] => O[1].OE
 nA[2] => O[2].OE

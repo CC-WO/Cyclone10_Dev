@@ -38,7 +38,7 @@ module ALU(
     .SUM(m_ADDEROUT)
   );
 
-  LOGIC_74AC125 U_ADDER_TRISTATE(
+  LOGIC_74HC125 U_ADDER_TRISTATE(
     .nA({nFA_EN,nFA_EN,nFA_EN,nFA_EN}),
     .B(m_ADDEROUT),
     .O(m_STOREDATA)
@@ -50,7 +50,7 @@ module ALU(
     .Y(m_ANDOUT)
   );
 
-  LOGIC_74AC125 U_AND_TRISTATE(
+  LOGIC_74HC125 U_AND_TRISTATE(
     .nA({nAND_EN,nAND_EN,nAND_EN,nAND_EN}),
     .B(m_ANDOUT),
     .O(m_STOREDATA)
@@ -62,7 +62,7 @@ module ALU(
     .Y(m_OROUT)
   );
 
-  LOGIC_74AC125 U_OR_TRISTATE(
+  LOGIC_74HC125 U_OR_TRISTATE(
     .nA({nOR_EN,nOR_EN,nOR_EN,nOR_EN}),
     .B(m_OROUT),
     .O(m_STOREDATA)
@@ -74,7 +74,7 @@ module ALU(
     .X(m_XOROUT)
   );
 
-  LOGIC_74AC125 U_XOR_TRISTATE(
+  LOGIC_74HC125 U_XOR_TRISTATE(
     .nA({nXOR_EN,nXOR_EN,nXOR_EN,nXOR_EN}),
     .B(m_XOROUT),
     .O(m_STOREDATA)

@@ -17,7 +17,7 @@ module SP(
 
   assign m_IO = {4'b0000, m_TRI_B};
 
-  LOGIC_SRM2B256SLMX SRAM(
+  LOGIC_SRM2B256SLMX U_SRAM(
     .CLK(CLK),
     .A({7'b0000000, SP}),
     .nCS(1'b0),
@@ -26,7 +26,7 @@ module SP(
     .IO(m_IO)
   );
 
-  LOGIC_74HC245 TRISTATE(
+  LOGIC_74HC245 U_TRISTATE(
     .DIR(SP_D_nU),
     .nOE(nSK_EN),
     .A(STOREBUS),

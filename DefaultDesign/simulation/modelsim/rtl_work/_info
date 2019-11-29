@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/simulation/modelsim
 Echatter
-Z1 w1574488868
+Z1 w1574578087
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -17,13 +17,13 @@ Z4 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/chatter
 Z5 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/chatter.vhd
 l0
 L5
-VQ8H<n9JKNHfXl?BGT3RY`1
-!s100 bYnmWSN>?Wd7ZeFR5RUDj3
+Vlf=Bf2FC<UO>HfjDAm0II2
+!s100 iU84=O0;1cz1SRYV==C?e1
 Z6 OV;C;10.5b;63
 31
-Z7 !s110 1574490750
+Z7 !s110 1574784378
 !i10b 1
-Z8 !s108 1574490750.000000
+Z8 !s108 1574784378.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/chatter.vhd|
 Z10 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/chatter.vhd|
 !i113 1
@@ -32,11 +32,11 @@ Z12 tExplicit 1 CvgOpt 0
 Artl
 R2
 R3
-DEx4 work 7 chatter 0 22 Q8H<n9JKNHfXl?BGT3RY`1
+DEx4 work 7 chatter 0 22 lf=Bf2FC<UO>HfjDAm0II2
 l21
 L14
-VC@hWLYZHF`4oA785[@Z=40
-!s100 BUm3_W]PGo>RKOPKW@UT50
+VZFRl`aniJc]kofYG@3SSN2
+!s100 dXARniGo>ASgaAl;nlafe1
 R6
 31
 R7
@@ -48,14 +48,14 @@ R10
 R11
 R12
 Eclock_divider
-R1
-Z13 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z13 w1574578019
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R2
 R3
 R0
-Z15 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd
-Z16 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd
+Z16 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd
+Z17 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd
 l0
 L6
 VIE8_iK0[OmNkKdEOn4OFL0
@@ -65,40 +65,40 @@ R6
 R7
 !i10b 1
 R8
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd|
-Z18 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd|
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd|
+Z19 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 13 clock_divider 0 22 IE8_iK0[OmNkKdEOn4OFL0
 l22
 L16
-VHFISO31D<h3RfJcMngF5N3
-!s100 1ln2[X9[eXZdTNUT57bc^0
+V81MDLfeI7gVhDW?8CnMd`0
+!s100 Wf7VAA5;a;j1`MLFe`5Bg2
 R6
 31
 R7
 !i10b 1
 R8
-R17
 R18
+R19
 !i113 1
 R11
 R12
 Eled_key1
-R1
-R13
+Z20 w1574488868
 R14
+R15
 R2
 R3
 R0
-Z19 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd
-Z20 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd
+Z21 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd
+Z22 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd
 l0
 L6
 VgHU=7;1O<Z70Y93E>fc<X1
@@ -108,14 +108,14 @@ R6
 R7
 !i10b 1
 R8
-Z21 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd|
-Z22 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd|
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd|
+Z24 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key1 0 22 gHU=7;1O<Z70Y93E>fc<X1
@@ -128,37 +128,37 @@ R6
 R7
 !i10b 1
 R8
-R21
-R22
+R23
+R24
 !i113 1
 R11
 R12
 Eled_key2
-Z23 w1574490226
-R13
+Z25 w1574490226
 R14
+R15
 R2
 R3
 R0
-Z24 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd
-Z25 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd
+Z26 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd
+Z27 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd
 l0
 L6
 V@m1PRo8S5:]>ISZlc[e]H1
 !s100 l:k2b89>O`><8?XI[FHOD2
 R6
 31
-R7
+Z28 !s110 1574784379
 !i10b 1
-R8
-Z26 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd|
-Z27 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd|
+Z29 !s108 1574784379.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd|
+Z31 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key2 0 22 @m1PRo8S5:]>ISZlc[e]H1
@@ -168,40 +168,40 @@ Vin8WReW6BmD4F9K22A@RO3
 !s100 NV5ZKKO=oI_W]OI`UM9JU1
 R6
 31
-R7
+R28
 !i10b 1
-R8
-R26
-R27
+R29
+R30
+R31
 !i113 1
 R11
 R12
 Eled_key3
-R1
-R13
+R20
 R14
+R15
 R2
 R3
 R0
-Z28 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd
-Z29 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd
+Z32 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd
+Z33 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd
 l0
 L6
 VcYGB3aaAQimdCM1dYVgW:0
 !s100 ?^YkeaWe3kFDC_mfDhfJn2
 R6
 31
-R7
+R28
 !i10b 1
-R8
-Z30 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd|
-Z31 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd|
+R29
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd|
+Z35 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key3 0 22 cYGB3aaAQimdCM1dYVgW:0
@@ -211,40 +211,40 @@ V<R9amMiGgG_Uj<K6[Ya>N0
 !s100 nSCZ7JzNDeng9>c78PN2H0
 R6
 31
-R7
+R28
 !i10b 1
-R8
-R30
-R31
+R29
+R34
+R35
 !i113 1
 R11
 R12
 Eled_key4
-R1
-R13
+R20
 R14
+R15
 R2
 R3
 R0
-Z32 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd
-Z33 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd
+Z36 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd
+Z37 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd
 l0
 L6
 VU0n4e_MhT=PmQHZJ=f1LG2
 !s100 BIF5KRY9fQjenR^:>PfYh2
 R6
 31
-R7
+R28
 !i10b 1
-R8
-Z34 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd|
-Z35 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd|
+R29
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd|
+Z39 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key4 0 22 U0n4e_MhT=PmQHZJ=f1LG2
@@ -254,23 +254,23 @@ V0kBbKlz3S82Y8galhZ<P11
 !s100 kBeN_lI8Eo3lIi6>Pi?Y13
 R6
 31
-R7
+R28
 !i10b 1
-R8
-R34
-R35
+R29
+R38
+R39
 !i113 1
 R11
 R12
 Etop
-R1
-R13
+Z40 w1574578108
 R14
+R15
 R2
 R3
 R0
-Z36 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd
-Z37 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd
+Z41 8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd
+Z42 FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd
 l0
 L5
 V3m_3^mCH>UXzOLh;mAjS?2
@@ -279,29 +279,29 @@ R6
 31
 R7
 !i10b 1
-Z38 !s108 1574490749.000000
-Z39 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd|
-Z40 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd|
+R8
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd|
+Z44 !s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 3 top 0 22 3m_3^mCH>UXzOLh;mAjS?2
 l92
 L15
-V[^9=]J0[Eaz>`8T1Hm3@22
-!s100 mXIC=cYcdfJnd8G]^Za3F3
+VzhOnzg`Iazeb<G>z^?e@A3
+!s100 k_C884V>:HcUeokY^^PNk1
 R6
 31
 R7
 !i10b 1
-R38
-R39
-R40
+R8
+R43
+R44
 !i113 1
 R11
 R12

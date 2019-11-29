@@ -14,7 +14,7 @@ module MEMORY(
   wire [ 7:0] m_MEM1_IO;
   wire [ 7:0] m_MEM2_IO;
 
-  LOGIC_SRM2B256SLMX U_MEM1(
+  LOGIC_SRM2B256SLMX U_SRAM1(
     .CLK(CLK),
     .A(m_MEM1_A),
     .nCS(1'b0),
@@ -23,7 +23,7 @@ module MEMORY(
     .IO(m_MEM1_IO)
   );
 
-  LOGIC_SRM2B256SLMX U_MEM2(
+  LOGIC_SRM2B256SLMX U_SRAM2(
     .CLK(CLK),
     .A(m_MEM2_A),
     .nCS(1'b0),

@@ -13,7 +13,7 @@ module REGISTER_A(
 
   wire [3:0] m_REGOUT;
 
-  LOGIC_74HC161 U_74HC161(
+  LOGIC_74HC161 U_COUNTER(
     .CK(CLK),
     .nCLR(RST),
     .nLOAD(nA_ST),
@@ -24,7 +24,7 @@ module REGISTER_A(
     .COUNTER(m_REGOUT)
   );
 
-  LOGIC_74AC125 U_74AC125(
+  LOGIC_74HC125 U_TRISTATE(
     .nA({nA_OUT,nA_OUT,nA_OUT,nA_OUT}),
     .B(m_REGOUT),
     .O(LOADDATA)

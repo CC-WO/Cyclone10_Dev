@@ -82,8 +82,8 @@ set_global_assignment -name VERILOG_FILE src/verilog/logic/4030.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/4053.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC08.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC32.v
-set_global_assignment -name VERILOG_FILE src/verilog/logic/74AC125.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC138.v
+set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC125.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC161.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC191.v
 set_global_assignment -name VERILOG_FILE src/verilog/logic/74HC221.v

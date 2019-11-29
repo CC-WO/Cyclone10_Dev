@@ -1,8 +1,8 @@
 /*
- 74AC125
+ 74HC125
 */
 
-module LOGIC_74AC125(
+module LOGIC_74HC125(
   input  wire [3:0] nA,
   input  wire [3:0] B,
   output wire [3:0] O
@@ -13,4 +13,4 @@ module LOGIC_74AC125(
   assign O[2] = nA[2] ? B[2] : 1'bz;
   assign O[3] = nA[3] ? B[3] : 1'bz;
 
-endmodule // LOGIC_74AC125
+endmodule // LOGIC_74HC125

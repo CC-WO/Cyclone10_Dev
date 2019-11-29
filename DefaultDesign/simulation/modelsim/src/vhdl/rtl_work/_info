@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/simulation/modelsim/src/vhdl
 Echatter
-Z1 w1574488868
+Z1 w1574578087
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -17,13 +17,13 @@ Z4 8../../../../src/vhdl/chatter.vhd
 Z5 F../../../../src/vhdl/chatter.vhd
 l0
 L5
-V2]cXaDk@9iOT87291W=P>3
-!s100 bYnmWSN>?Wd7ZeFR5RUDj3
+VhJaSRD5?6`5>Yne6WRQV33
+!s100 iU84=O0;1cz1SRYV==C?e1
 Z6 OV;C;10.5b;63
 31
-Z7 !s110 1574491020
+Z7 !s110 1574784810
 !i10b 1
-Z8 !s108 1574491020.000000
+Z8 !s108 1574784810.000000
 Z9 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/chatter.vhd|
 Z10 !s107 ../../../../src/vhdl/chatter.vhd|
 !i113 1
@@ -32,11 +32,11 @@ Z12 tExplicit 1 CvgOpt 0
 Artl
 R2
 R3
-DEx4 work 7 chatter 0 22 2]cXaDk@9iOT87291W=P>3
+DEx4 work 7 chatter 0 22 hJaSRD5?6`5>Yne6WRQV33
 l21
 L14
-VIV95Xb0SF;L4J[5if=lQ73
-!s100 BUm3_W]PGo>RKOPKW@UT50
+VQ:7h9zHDlUgadkVZE`MTe3
+!s100 dXARniGo>ASgaAl;nlafe1
 R6
 31
 R7
@@ -48,14 +48,14 @@ R10
 R11
 R12
 Eclock_divider
-R1
-Z13 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z13 w1574578019
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R2
 R3
 R0
-Z15 8../../../../src/vhdl/clock_divider.vhd
-Z16 F../../../../src/vhdl/clock_divider.vhd
+Z16 8../../../../src/vhdl/clock_divider.vhd
+Z17 F../../../../src/vhdl/clock_divider.vhd
 l0
 L6
 VBRb`dRkbLKNhHKT3dlQk60
@@ -65,57 +65,57 @@ R6
 R7
 !i10b 1
 R8
-Z17 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/clock_divider.vhd|
-Z18 !s107 ../../../../src/vhdl/clock_divider.vhd|
+Z18 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/clock_divider.vhd|
+Z19 !s107 ../../../../src/vhdl/clock_divider.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 13 clock_divider 0 22 BRb`dRkbLKNhHKT3dlQk60
 l22
 L16
-VA1=9D@fAIl5k]?59in8^b3
-!s100 1ln2[X9[eXZdTNUT57bc^0
+VzXbeL_^>KRdX[0ho5KCX;3
+!s100 Wf7VAA5;a;j1`MLFe`5Bg2
 R6
 31
 R7
 !i10b 1
 R8
-R17
 R18
+R19
 !i113 1
 R11
 R12
 Eled_key1
-R1
-R13
+Z20 w1574488868
 R14
+R15
 R2
 R3
 R0
-Z19 8../../../../src/vhdl/LED_KEY1.vhd
-Z20 F../../../../src/vhdl/LED_KEY1.vhd
+Z21 8../../../../src/vhdl/LED_KEY1.vhd
+Z22 F../../../../src/vhdl/LED_KEY1.vhd
 l0
 L6
 Vi3daM7c^0k]oo_2bX0:J:1
 !s100 :cg:BNhcQS8L:g<@6AE071
 R6
 31
-R7
+Z23 !s110 1574784809
 !i10b 1
-R8
-Z21 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY1.vhd|
-Z22 !s107 ../../../../src/vhdl/LED_KEY1.vhd|
+Z24 !s108 1574784809.000000
+Z25 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY1.vhd|
+Z26 !s107 ../../../../src/vhdl/LED_KEY1.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key1 0 22 i3daM7c^0k]oo_2bX0:J:1
@@ -125,40 +125,40 @@ VQMSgQjnZf0FKZZZc^jBTG2
 !s100 cDBJV9HhfaAY3MHCWMQcj1
 R6
 31
-R7
+R23
 !i10b 1
-R8
-R21
-R22
+R24
+R25
+R26
 !i113 1
 R11
 R12
 Eled_key2
-Z23 w1574490226
-R13
+Z27 w1574490226
 R14
+R15
 R2
 R3
 R0
-Z24 8../../../../src/vhdl/LED_KEY2.vhd
-Z25 F../../../../src/vhdl/LED_KEY2.vhd
+Z28 8../../../../src/vhdl/LED_KEY2.vhd
+Z29 F../../../../src/vhdl/LED_KEY2.vhd
 l0
 L6
 V?4kJKIi<<3U38eo^B`4NS0
 !s100 l:k2b89>O`><8?XI[FHOD2
 R6
 31
-R7
+R23
 !i10b 1
-R8
-Z26 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY2.vhd|
-Z27 !s107 ../../../../src/vhdl/LED_KEY2.vhd|
+R24
+Z30 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY2.vhd|
+Z31 !s107 ../../../../src/vhdl/LED_KEY2.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key2 0 22 ?4kJKIi<<3U38eo^B`4NS0
@@ -168,40 +168,40 @@ VDM[CREfcaO^VUC;LX`_9N0
 !s100 NV5ZKKO=oI_W]OI`UM9JU1
 R6
 31
-R7
+R23
 !i10b 1
-R8
-R26
-R27
+R24
+R30
+R31
 !i113 1
 R11
 R12
 Eled_key3
-R1
-R13
+R20
 R14
+R15
 R2
 R3
 R0
-Z28 8../../../../src/vhdl/LED_KEY3.vhd
-Z29 F../../../../src/vhdl/LED_KEY3.vhd
+Z32 8../../../../src/vhdl/LED_KEY3.vhd
+Z33 F../../../../src/vhdl/LED_KEY3.vhd
 l0
 L6
 V;lAWmH_EkA``a;<k9aoYQ2
 !s100 ?^YkeaWe3kFDC_mfDhfJn2
 R6
 31
-R7
+R23
 !i10b 1
-R8
-Z30 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY3.vhd|
-Z31 !s107 ../../../../src/vhdl/LED_KEY3.vhd|
+R24
+Z34 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY3.vhd|
+Z35 !s107 ../../../../src/vhdl/LED_KEY3.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key3 0 22 ;lAWmH_EkA``a;<k9aoYQ2
@@ -211,23 +211,23 @@ VCAIWSmYZDZE2B:^[_]Cn00
 !s100 nSCZ7JzNDeng9>c78PN2H0
 R6
 31
-R7
+R23
 !i10b 1
-R8
-R30
-R31
+R24
+R34
+R35
 !i113 1
 R11
 R12
 Eled_key4
-R1
-R13
+R20
 R14
+R15
 R2
 R3
 R0
-Z32 8../../../../src/vhdl/LED_KEY4.vhd
-Z33 F../../../../src/vhdl/LED_KEY4.vhd
+Z36 8../../../../src/vhdl/LED_KEY4.vhd
+Z37 F../../../../src/vhdl/LED_KEY4.vhd
 l0
 L6
 VHWKgM^JUL4hjYI8B8k5PT0
@@ -237,14 +237,14 @@ R6
 R7
 !i10b 1
 R8
-Z34 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY4.vhd|
-Z35 !s107 ../../../../src/vhdl/LED_KEY4.vhd|
+Z38 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/LED_KEY4.vhd|
+Z39 !s107 ../../../../src/vhdl/LED_KEY4.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 8 led_key4 0 22 HWKgM^JUL4hjYI8B8k5PT0
@@ -257,43 +257,43 @@ R6
 R7
 !i10b 1
 R8
-R34
-R35
+R38
+R39
 !i113 1
 R11
 R12
 Etb_top
-Z36 w1574490948
-Z37 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-Z38 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
-Z39 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
-R13
+Z40 w1574490948
+Z41 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z42 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z43 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
 R14
+R15
 R2
 R3
 R0
-Z40 8tb_top.vhd
-Z41 Ftb_top.vhd
+Z44 8tb_top.vhd
+Z45 Ftb_top.vhd
 l0
 L13
 Vd]E<KS:a6mz0fZ9]1Ak6o0
 !s100 ;D`FTadEX2Hi2NVzHlW<01
 R6
 31
-Z42 !s110 1574491021
+R7
 !i10b 1
-Z43 !s108 1574491021.000000
-Z44 !s90 -reportprogress|300|-93|-work|rtl_work|tb_top.vhd|
-Z45 !s107 tb_top.vhd|
+R8
+Z46 !s90 -reportprogress|300|-93|-work|rtl_work|tb_top.vhd|
+Z47 !s107 tb_top.vhd|
 !i113 1
 R11
 R12
 Asim
-R37
-R38
-R39
-R13
+R41
+R42
+R43
 R14
+R15
 R2
 R3
 DEx4 work 6 tb_top 0 22 d]E<KS:a6mz0fZ9]1Ak6o0
@@ -303,23 +303,23 @@ VES7hU>>IBWYZ=[O2hOHj;0
 !s100 h]iP>MHZ4AjL3PZ=<YXjo0
 R6
 31
-R42
+R7
 !i10b 1
-R43
-R44
-R45
+R8
+R46
+R47
 !i113 1
 R11
 R12
 Etop
-R1
-R13
+Z48 w1574578108
 R14
+R15
 R2
 R3
 R0
-Z46 8../../../../src/vhdl/top.vhd
-Z47 F../../../../src/vhdl/top.vhd
+Z49 8../../../../src/vhdl/top.vhd
+Z50 F../../../../src/vhdl/top.vhd
 l0
 L5
 V^2n0]HY;VLURo^WOF[B4R3
@@ -329,28 +329,28 @@ R6
 R7
 !i10b 1
 R8
-Z48 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/top.vhd|
-Z49 !s107 ../../../../src/vhdl/top.vhd|
+Z51 !s90 -reportprogress|300|-93|-work|rtl_work|../../../../src/vhdl/top.vhd|
+Z52 !s107 ../../../../src/vhdl/top.vhd|
 !i113 1
 R11
 R12
 Artl
-R13
 R14
+R15
 R2
 R3
 DEx4 work 3 top 0 22 ^2n0]HY;VLURo^WOF[B4R3
 l92
 L15
-VNY7CF0``6GEhnUj@W^VAW2
-!s100 mXIC=cYcdfJnd8G]^Za3F3
+VCaW3^7z6nCWom=244F>BV3
+!s100 k_C884V>:HcUeokY^^PNk1
 R6
 31
 R7
 !i10b 1
 R8
-R48
-R49
+R51
+R52
 !i113 1
 R11
 R12

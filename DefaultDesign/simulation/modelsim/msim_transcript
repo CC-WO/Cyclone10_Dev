@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:29 on Nov 23,2019
+# Start time: 01:06:18 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,11 +21,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity top
 # -- Compiling architecture RTL of top
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:01
+# End time: 01:06:18 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:30 on Nov 23,2019
+# Start time: 01:06:18 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/clock_divider.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,22 +34,22 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity clock_divider
 # -- Compiling architecture RTL of clock_divider
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:06:18 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/chatter.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:30 on Nov 23,2019
+# Start time: 01:06:18 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/chatter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity chatter
 # -- Compiling architecture RTL of chatter
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:06:18 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:30 on Nov 23,2019
+# Start time: 01:06:18 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -58,11 +58,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY1
 # -- Compiling architecture RTL of LED_KEY1
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:06:19 on Nov 27,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:30 on Nov 23,2019
+# Start time: 01:06:19 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -71,11 +71,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY2
 # -- Compiling architecture RTL of LED_KEY2
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:06:19 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:30 on Nov 23,2019
+# Start time: 01:06:19 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -84,11 +84,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY3
 # -- Compiling architecture RTL of LED_KEY3
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:06:19 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:32:30 on Nov 23,2019
+# Start time: 01:06:19 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work work C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/src/vhdl/LED_KEY4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -97,165 +97,13 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY4
 # -- Compiling architecture RTL of LED_KEY4
-# End time: 15:32:30 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:06:19 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
+cd C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/simulation/modelsim
+# reading modelsim.ini
 cd C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/DefaultDesign/simulation/modelsim/src/vhdl
-# reading C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini
-do tb_top.do
-# 
-# if Design Unit Exists, Delete the Design Unit from a Specified Library.
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
-# }
-# 
-# Create a Design Library
-# vlib rtl_work
-# 
-# Define a Mapping between a Logical Library Name and a Directory
-# vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
-# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
-# Modifying modelsim.ini
-# 
-# Compile HDL Source
-# Define Path Specification
-# Relative Path Specification
-# vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY1.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:30 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LED_KEY1
-# -- Compiling architecture RTL of LED_KEY1
-# End time: 15:36:30 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY2.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:30 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LED_KEY2
-# -- Compiling architecture RTL of LED_KEY2
-# End time: 15:36:30 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY3.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:30 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY3.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LED_KEY3
-# -- Compiling architecture RTL of LED_KEY3
-# End time: 15:36:30 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY4.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:30 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY4.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LED_KEY4
-# -- Compiling architecture RTL of LED_KEY4
-# End time: 15:36:30 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {../../../../src/vhdl/chatter.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:31 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/chatter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity chatter
-# -- Compiling architecture RTL of chatter
-# End time: 15:36:31 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {../../../../src/vhdl/clock_divider.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:31 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/clock_divider.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity clock_divider
-# -- Compiling architecture RTL of clock_divider
-# End time: 15:36:31 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {../../../../src/vhdl/top.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:31 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity top
-# -- Compiling architecture RTL of top
-# End time: 15:36:31 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work rtl_work {tb_top.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:36:31 on Nov 23,2019
-# vcom -reportprogress 300 -93 -work rtl_work tb_top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package ATTRIBUTES
-# -- Loading package std_logic_misc
-# -- Loading package std_logic_textio
-# -- Compiling entity tb_top
-# -- Compiling architecture SIM of tb_top
-# End time: 15:36:31 on Nov 23,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# Invoke VSIM Simulator
-# vsim -t 1ps -lib rtl_work tb_top
-# vsim -t 1ps -lib rtl_work tb_top 
-# Start time: 15:36:32 on Nov 23,2019
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading synopsys.attributes
-# Loading ieee.std_logic_misc(body)
-# Loading ieee.std_logic_textio(body)
-# Loading rtl_work.tb_top(sim)
-# Loading rtl_work.top(rtl)
-# Loading rtl_work.clock_divider(rtl)
-# Loading rtl_work.chatter(rtl)
-# Loading rtl_work.led_key1(rtl)
-# Loading rtl_work.led_key2(rtl)
-# Loading rtl_work.led_key3(rtl)
-# Loading rtl_work.led_key4(rtl)
-# 
-# Prepare Wave Display
-# add wave -position end  sim:/tb_top/U_TOP/rst
-# ** Error: (vish-4014) No objects found matching '/tb_top/U_TOP/rst'.
-# Error in macro ./tb_top.do line 31
-# (vish-4014) No objects found matching '/tb_top/U_TOP/rst'.
-#     while executing
-# "add wave -position end  sim:/tb_top/U_TOP/rst"
+# reading modelsim.ini
 do tb_top.do
 # 
 # if Design Unit Exists, Delete the Design Unit from a Specified Library.
@@ -277,7 +125,7 @@ do tb_top.do
 # Relative Path Specification
 # vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:29 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -286,11 +134,11 @@ do tb_top.do
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY1
 # -- Compiling architecture RTL of LED_KEY1
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:29 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:29 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -299,11 +147,11 @@ do tb_top.do
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY2
 # -- Compiling architecture RTL of LED_KEY2
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:29 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY3.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:29 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -312,11 +160,11 @@ do tb_top.do
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY3
 # -- Compiling architecture RTL of LED_KEY3
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:29 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {../../../../src/vhdl/LED_KEY4.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:30 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/LED_KEY4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -325,22 +173,22 @@ do tb_top.do
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LED_KEY4
 # -- Compiling architecture RTL of LED_KEY4
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:30 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {../../../../src/vhdl/chatter.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:30 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/chatter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity chatter
 # -- Compiling architecture RTL of chatter
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:30 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {../../../../src/vhdl/clock_divider.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:30 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/clock_divider.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -349,11 +197,11 @@ do tb_top.do
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity clock_divider
 # -- Compiling architecture RTL of clock_divider
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:30 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {../../../../src/vhdl/top.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:00 on Nov 23,2019
+# Start time: 01:13:30 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work ../../../../src/vhdl/top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -362,11 +210,11 @@ do tb_top.do
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity top
 # -- Compiling architecture RTL of top
-# End time: 15:37:00 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:30 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work rtl_work {tb_top.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:37:01 on Nov 23,2019
+# Start time: 01:13:30 on Nov 27,2019
 # vcom -reportprogress 300 -93 -work rtl_work tb_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -378,15 +226,13 @@ do tb_top.do
 # -- Loading package std_logic_textio
 # -- Compiling entity tb_top
 # -- Compiling architecture SIM of tb_top
-# End time: 15:37:01 on Nov 23,2019, Elapsed time: 0:00:00
+# End time: 01:13:30 on Nov 27,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # Invoke VSIM Simulator
 # vsim -t 1ps -lib rtl_work tb_top
-# End time: 15:37:02 on Nov 23,2019, Elapsed time: 0:00:30
-# Errors: 3, Warnings: 0
 # vsim -t 1ps -lib rtl_work tb_top 
-# Start time: 15:37:02 on Nov 23,2019
+# Start time: 01:13:31 on Nov 27,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
