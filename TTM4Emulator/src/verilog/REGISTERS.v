@@ -13,10 +13,7 @@ module REGISTERS(
     input  wire       nIRU_OUT,
     output wire [7:0] PA,
     inout  wire [3:0] LOADBUS,
-    inout  wire [3:0] STOREBUS_JP1,
-    inout  wire [3:0] STOREBUS_JP2,
-    inout  wire [3:0] STOREBUS_OR1,
-    inout  wire [3:0] STOREBUS_OR2,
+    inout  wire [3:0] STOREBUS,
     output      [7:0] OR,
     input       [7:0] IR
   );
@@ -45,7 +42,7 @@ module REGISTERS(
     .nLOAD(nJRD_ST),
     .ENP(1'b0),
     .INT(1'b1),
-    .DATAIN(STOREBUS_JP1),
+    .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_JP1)
   );
@@ -56,7 +53,7 @@ module REGISTERS(
     .nLOAD(nJRU_ST),
     .ENP(1'b0),
     .INT(1'b1),
-    .DATAIN(STOREBUS_JP2),
+    .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_JP2)
   );
@@ -67,7 +64,7 @@ module REGISTERS(
     .nLOAD(nORD_ST),
     .ENP(1'b0),
     .INT(1'b1),
-    .DATAIN(STOREBUS_OR1),
+    .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_OR1)
   );
@@ -78,7 +75,7 @@ module REGISTERS(
     .nLOAD(nORU_ST),
     .ENP(1'b0),
     .INT(1'b1),
-    .DATAIN(STOREBUS_OR1),
+    .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_OR2)
   );

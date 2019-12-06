@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/REGISTER_A_B
+vLOGIC_74HC125
+Z1 !s110 1575207348
+!i10b 1
+!s100 jc:1W[1JIl^C?aZozHKO20
+If8VmBa:SCG1ahDjVgDARU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1574788722
+8../../../src/verilog/logic/74HC125.v
+F../../../src/verilog/logic/74HC125.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575207348.000000
+!s107 ../../../src/verilog/logic/74HC125.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC125.v|
+!i113 1
+Z5 o-work rtl_work
+Z6 tCvgOpt 0
+n@l@o@g@i@c_74@h@c125
+vLOGIC_74HC161
+R1
+!i10b 1
+!s100 8=1;_;bCQk^^[XGbhN`_V3
+I1N47]CC<mYSY6aYFJ8LCh3
+R2
+R0
+w1575207274
+8../../../src/verilog/logic/74HC161.v
+F../../../src/verilog/logic/74HC161.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC161.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC161.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c161
+vREGISTER_B
+Z7 !s110 1575207349
+!i10b 1
+!s100 =Qne4aX;>2^[U0:JSOe<R3
+IOe5gDZh4Anl9f?BlF1PHi2
+R2
+R0
+w1574788803
+8../../../src/verilog/REGISTER_B.v
+F../../../src/verilog/REGISTER_B.v
+L0 5
+R3
+r1
+!s85 0
+31
+Z8 !s108 1575207349.000000
+!s107 ../../../src/verilog/REGISTER_B.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/REGISTER_B.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r_@b
+vtb_REGISTER_A_B
+R7
+!i10b 1
+!s100 :OEh:DB>DL7k4IAa2<0WM2
+I@@AQn1zH9<CW]3<00E9D40
+R2
+R0
+w1575207337
+8tb_REGISTER_A_B.v
+Ftb_REGISTER_A_B.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 tb_REGISTER_A_B.v|
+!s90 -reportprogress|300|-work|rtl_work|tb_REGISTER_A_B.v|
+!i113 1
+R5
+R6
+ntb_@r@e@g@i@s@t@e@r_@a_@b

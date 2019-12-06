@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/REGISTERS
+vLOGIC_74HC125
+Z1 !s110 1575203745
+!i10b 1
+!s100 jc:1W[1JIl^C?aZozHKO20
+If8VmBa:SCG1ahDjVgDARU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1574788722
+8../../../src/verilog/logic/74HC125.v
+F../../../src/verilog/logic/74HC125.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575203745.000000
+!s107 ../../../src/verilog/logic/74HC125.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC125.v|
+!i113 1
+Z5 o-work rtl_work
+Z6 tCvgOpt 0
+n@l@o@g@i@c_74@h@c125
+vLOGIC_74HC161
+R1
+!i10b 1
+!s100 @R]@lb5kBTlclRk95G?on2
+I>`68n3l7?8;>eMA0SIiJO0
+R2
+R0
+w1575199411
+8../../../src/verilog/logic/74HC161.v
+F../../../src/verilog/logic/74HC161.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC161.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC161.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c161
+vLOGIC_74HC373
+R1
+!i10b 1
+!s100 cb[BCLoi]o:Pg03V;[Lkz3
+IJ[67VWGm?lJnOAL?be3i`0
+R2
+R0
+w1575198684
+8../../../src/verilog/logic/74HC373.v
+F../../../src/verilog/logic/74HC373.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC373.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC373.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c373
+vPC
+R1
+!i10b 1
+!s100 7=a:jAm_JSn3cPDUK;Voe2
+IXja`eND7`ETRAYPT:Oz];3
+R2
+R0
+w1574619294
+8../../../src/verilog/PC.v
+F../../../src/verilog/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/PC.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/PC.v|
+!i113 1
+R5
+R6
+n@p@c
+vREGISTERS
+R1
+!i10b 1
+!s100 ZzI?iSN@EhCFl]5bZL^mW3
+I4SZJ1<eaCO:EWLT?in^[F1
+R2
+R0
+w1575201693
+8../../../src/verilog/REGISTERS.v
+F../../../src/verilog/REGISTERS.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/REGISTERS.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/REGISTERS.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r@s
+vtb_REGISTERS
+R1
+!i10b 1
+!s100 H9_VWc5LYILnXK@gb4?DN0
+IPkDYMK63k_=mbdfJHNTc^0
+R2
+R0
+w1575203728
+8tb_REGISTERS.v
+Ftb_REGISTERS.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 tb_REGISTERS.v|
+!s90 -reportprogress|300|-work|rtl_work|tb_REGISTERS.v|
+!i113 1
+R5
+R6
+ntb_@r@e@g@i@s@t@e@r@s

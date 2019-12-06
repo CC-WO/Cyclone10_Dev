@@ -11,20 +11,15 @@ module LOGIC_74HC373(
 
   reg [7:0] m_Q;
 
-  always @(negedge nOE or posedge LE) begin
-    if (nOE == 1'b0) begin
-      m_Q <= 8'hzz;
+  always @(LE or D) begin
+    if (LE) begin
+      m_Q <= D;
     end
     else begin
-      if (LE == 1'b1) begin
-        m_Q <= D;
-      end
-      else begin
-        m_Q <= m_Q;
-      end
+      m_Q <= m_Q;
     end
   end
 
-  assign Q = m_Q;
+  assign Q = nOE ? 8'hzz : m_Q;
 
 endmodule // LOGIC_74HC373

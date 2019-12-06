@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/MEMORY
+vLOGIC_SRM2B256SLMX
+Z1 !s110 1575312686
+!i10b 1
+!s100 13KTAE2bWAEKSN]O6iIE]1
+IOj@U=_mgZfRLIZF>[^;he2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575218892
+8../../../src/verilog/logic/SRM2B256SLMX.v
+F../../../src/verilog/logic/SRM2B256SLMX.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575312686.000000
+!s107 ../../../src/verilog/logic/SRM2B256SLMX.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/SRM2B256SLMX.v|
+!i113 1
+Z5 o-work rtl_work
+Z6 tCvgOpt 0
+n@l@o@g@i@c_@s@r@m2@b256@s@l@m@x
+vMEMORY
+R1
+!i10b 1
+!s100 gfj`@A:o`>J4CzIH?SVb<3
+Iz1TMYAWTmAXBDoR`b^RAl1
+R2
+R0
+w1575312681
+8../../../src/verilog/MEMORY.v
+F../../../src/verilog/MEMORY.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/MEMORY.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/MEMORY.v|
+!i113 1
+R5
+R6
+n@m@e@m@o@r@y
+vSRAM
+R1
+!i10b 1
+!s100 n7[DJDbJBoX0ohJ;>LUdJ3
+ID?Fi_mPh>`lkRTkcK?AOi0
+R2
+R0
+w1574586550
+8../../../src/verilog/ip/SRAM.v
+F../../../src/verilog/ip/SRAM.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/ip/SRAM.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/ip/SRAM.v|
+!i113 1
+R5
+R6
+n@s@r@a@m
+vtb_MEMORY
+R1
+!i10b 1
+!s100 <m1Jg<?MZXNkCfjnC]VQ;0
+I8dLojUko=keX5Nlg:lY0N2
+R2
+R0
+w1575219716
+8tb_MEMORY.v
+Ftb_MEMORY.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 tb_MEMORY.v|
+!s90 -reportprogress|300|-work|rtl_work|tb_MEMORY.v|
+!i113 1
+R5
+R6
+ntb_@m@e@m@o@r@y

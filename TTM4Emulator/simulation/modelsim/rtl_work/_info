@@ -1,0 +1,513 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim
+vALU
+Z1 !s110 1575222744
+!i10b 1
+!s100 GQQcfii9RkJeSb>IDzfcE0
+IT1AcJ=XKY?m166ZKU2;]l3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1574788767
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/ALU.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/ALU.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575222744.000000
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/ALU.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog
+Z7 tCvgOpt 0
+n@a@l@u
+vchatter
+Z8 !s110 1575222743
+!i10b 1
+!s100 3JMV_6`<k;W3n<^Qf:9BI3
+I605:Ql0d3l1XQFI?S=E`m3
+R2
+R0
+w1574580201
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/chatter.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/chatter.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1575222743.000000
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/chatter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/chatter.v|
+!i113 1
+R5
+R6
+R7
+vclock_divider
+R8
+!i10b 1
+!s100 1:]8B1h1C[7IG1mikD[790
+If``hXS>PFViV4kWb?05a>0
+R2
+R0
+w1574580171
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/clock_divider.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/clock_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/clock_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/clock_divider.v|
+!i113 1
+R5
+R6
+R7
+vINSTRUCTION_DECODER
+R1
+!i10b 1
+!s100 8fla2Vj@jzXJgGo`>m5bF0
+I`CkjYij0DP4OOo@<S>P7V3
+R2
+R0
+w1575221507
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/INSTRUCTION_DECODER.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/INSTRUCTION_DECODER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/INSTRUCTION_DECODER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/INSTRUCTION_DECODER.v|
+!i113 1
+R5
+R6
+R7
+n@i@n@s@t@r@u@c@t@i@o@n_@d@e@c@o@d@e@r
+vLOGIC_4030
+R1
+!i10b 1
+!s100 @BDckkI0g2[ia2aTI<oF51
+I0CJ4O]?zHkkXaTSFI`8zQ1
+R2
+R0
+w1574581797
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4030.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4030.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4030.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4030.v|
+!i113 1
+R5
+Z10 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic
+R7
+n@l@o@g@i@c_4030
+vLOGIC_4053
+Z11 !s110 1575222745
+!i10b 1
+!s100 NI[lP]6`5?@2m;MO^8gmX1
+Iz<X?4]m7LokbKaTd19gj11
+R2
+R0
+w1574616863
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4053.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4053.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4053.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/4053.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_4053
+vLOGIC_74HC08
+R11
+!i10b 1
+!s100 cPhgD1DaXn[]SW9I8T5Bc1
+IXQbd>elaVz`J=9ZBR[<TB1
+R2
+R0
+w1574583215
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC08.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC08.v
+L0 5
+R3
+r1
+!s85 0
+31
+Z12 !s108 1575222745.000000
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC08.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC08.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c08
+vLOGIC_74HC125
+R11
+!i10b 1
+!s100 jc:1W[1JIl^C?aZozHKO20
+I<0EI_[8I`YakkVlBRzNd[1
+R2
+R0
+w1574788722
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC125.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC125.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC125.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC125.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c125
+vLOGIC_74HC138
+R11
+!i10b 1
+!s100 noco]B:c9i`LiK52T5ECz3
+IjBL>bVb8Lz6Mk8c`j=?Hj3
+R2
+R0
+w1575222559
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC138.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC138.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC138.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC138.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c138
+vLOGIC_74HC161
+R11
+!i10b 1
+!s100 8=1;_;bCQk^^[XGbhN`_V3
+I;3mHDoFRQmV<;eYQVfI5Q3
+R2
+R0
+w1575207274
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC161.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC161.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC161.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC161.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c161
+vLOGIC_74HC191
+R11
+!i10b 1
+!s100 KMOSP:c=7:IboN[M1AF^l2
+I9OlHF^jO:d?81Ze^GF4XG1
+R2
+R0
+w1574703388
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC191.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC191.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC191.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC191.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c191
+vLOGIC_74HC221
+R11
+!i10b 1
+!s100 jC0GLRnBK0JaTfFeKg^642
+I0QczGHck^J12;d:i9l^Eo3
+R2
+R0
+w1574618775
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC221.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC221.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC221.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC221.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c221
+vLOGIC_74HC245
+R11
+!i10b 1
+!s100 WVl5W_d<6n6bjWl0jHKoi0
+Ih7OAbhK@Il624IA_^aJ<h2
+R2
+R0
+w1574622861
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC245.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC245.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC245.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC245.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c245
+vLOGIC_74HC32
+R11
+!i10b 1
+!s100 J3c^AfjDd_UB2BVV<8dX20
+ITUFLKI6XPI<PFeId9C=h@1
+R2
+R0
+w1574583275
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC32.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC32.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC32.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_74@h@c32
+vLOGIC_SRM2B256SLMX
+R1
+!i10b 1
+!s100 13KTAE2bWAEKSN]O6iIE]1
+I=l[`B:GZd03c[UiI8=_m83
+R2
+R0
+w1575218892
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/SRM2B256SLMX.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/SRM2B256SLMX.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/SRM2B256SLMX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/SRM2B256SLMX.v|
+!i113 1
+R5
+R10
+R7
+n@l@o@g@i@c_@s@r@m2@b256@s@l@m@x
+vMEMORY
+R1
+!i10b 1
+!s100 ;nOCoVG2DKgm[42:`1XMf1
+I65_TSREz1M02S8A<H`dg70
+R2
+R0
+w1575218940
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/MEMORY.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/MEMORY.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/MEMORY.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/MEMORY.v|
+!i113 1
+R5
+R6
+R7
+n@m@e@m@o@r@y
+vPC
+R8
+!i10b 1
+!s100 7=a:jAm_JSn3cPDUK;Voe2
+If<1PeDGV<eCDcmF;5TazT0
+R2
+R0
+w1574619294
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/PC.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/PC.v|
+!i113 1
+R5
+R6
+R7
+n@p@c
+vREGISTER_A
+R1
+!i10b 1
+!s100 [T@d=O^dH?cQM5S1db0>P1
+I]XWLDhmdCNYVX^0n1BV023
+R2
+R0
+w1574788765
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_A.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_A.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_A.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_A.v|
+!i113 1
+R5
+R6
+R7
+n@r@e@g@i@s@t@e@r_@a
+vREGISTER_B
+R1
+!i10b 1
+!s100 =Qne4aX;>2^[U0:JSOe<R3
+IXohFhddc@ZgADobCa3J0>0
+R2
+R0
+w1574788803
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_B.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_B.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_B.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTER_B.v|
+!i113 1
+R5
+R6
+R7
+n@r@e@g@i@s@t@e@r_@b
+vREGISTERS
+R8
+!i10b 1
+!s100 ZzI?iSN@EhCFl]5bZL^mW3
+I^E=6U]?>DOnRMIIAdcB?12
+R2
+R0
+w1575201693
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTERS.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTERS.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTERS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTERS.v|
+!i113 1
+R5
+R6
+R7
+n@r@e@g@i@s@t@e@r@s
+vSP
+R1
+!i10b 1
+!s100 Kn8Nl_Q2HoXkfH7ETBZn:2
+I]PK78`I4NeY]A2NE<mC]m2
+R2
+R0
+w1575021271
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/SP.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/SP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/SP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/SP.v|
+!i113 1
+R5
+R6
+R7
+n@s@p
+vtop
+R8
+!i10b 1
+!s100 YJL4IdQg01;b`2;FRm_Rm0
+I[TK[?m9`kegVB5DT?DU8c3
+R2
+R0
+w1574703488
+8C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/top.v
+FC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog|C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/top.v|
+!i113 1
+R5
+R6
+R7

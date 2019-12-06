@@ -18,11 +18,13 @@ module LOGIC_SRM2B256SLMX(
   wire [7:0] m_io_in;
 
   always @(posedge CLK) begin
-    if ((nWE == 1'b0 & nOE == 1'b1) | (nWE == 1'b1 & nOE == 1'b0)) begin
-      sramclk <= 1'b1;
-    end
-    else begin
-      sramclk <= 1'b0;
+    if (CLK == 1'b1) begin
+      if ((nWE == 1'b0 & nOE == 1'b1) | (nWE == 1'b1 & nOE == 1'b0)) begin
+        sramclk <= 1'b1;
+      end
+      else begin
+        sramclk <= 1'b0;
+      end
     end
   end
 
@@ -36,6 +38,7 @@ module LOGIC_SRM2B256SLMX(
   );
 
   assign m_sramclk = sramclk;
-  assign IO = (nOE == 1'b0) ? m_io_out : m_io_in;
+  assign m_io_in = (nOE == 1'b0) ? 8'hzz : IO;
+  assign IO = (nOE == 1'b0) ? m_io_out : 8'hzz;
 
 endmodule // LOGIC_SRM2B256SLMX

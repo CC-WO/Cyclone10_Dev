@@ -23,8 +23,8 @@ module LOGIC_74HC259(
         DECODER = 8'h00;
       end
       else begin
-        case(A)
-          4'b000:  DECODER = { 7'b000_0000, D,            };
+        case (A)
+          4'b000:  DECODER = { 7'b000_0000, D             };
           4'b001:  DECODER = { 6'b00_0000 , D,        1'b0};
           4'b010:  DECODER = { 5'b0_0000  , D,       2'b00};
           4'b011:  DECODER = { 4'b0000    , D,      3'b000};

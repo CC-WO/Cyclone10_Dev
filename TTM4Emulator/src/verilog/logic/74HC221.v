@@ -3,7 +3,6 @@
 */
 
 module LOGIC_74HC221(
-  input  wire CLK,
   input  wire nA,
   input  wire B,
   input  wire nR,
@@ -15,13 +14,13 @@ module LOGIC_74HC221(
 
   reg m_Q;
 
-  always @(posedge CLK or negedge nA or posedge B or negedge nR) begin
+  always @(negedge nA or posedge B or negedge nR) begin
     if (nR == 1'b0) begin
       m_Q <= 1'b0;
     end
     else begin
       if (nA == 1'b0) begin
-        if (B == 1'b0 & nR == 1'b1) begin
+        if (B == 1'b1 & nR == 1'b1) begin
           m_Q <= 1'b1;
         end
         else begin
@@ -36,7 +35,7 @@ module LOGIC_74HC221(
           m_Q <= 1'b0;
         end
       end
-      else if (nR == 1'b1) begin
+      else if (nR == 1'b0) begin
         if (nA == 1'b0 & B == 1'b1) begin
           m_Q <= 1'b1;
         end

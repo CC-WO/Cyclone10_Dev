@@ -15,7 +15,7 @@ module LOGIC_74HC191(
 
   reg [3:0] m_Q;
 
-  always @(*) begin
+  always @(negedge nPL or posedge CP) begin
     if (nPL == 1'b0) begin
       m_Q <= D;
     end
@@ -34,8 +34,24 @@ module LOGIC_74HC191(
     end
   end
 
+  reg m_nRC;
+
+  always @(CP) begin
+    if (CP == 1'b0) begin
+      if (m_Q == 4'hf | m_Q == 4'h0) begin
+        m_nRC <= 1'b0;
+      end
+      else begin
+        m_nRC <= m_nRC;
+      end
+    end
+    else begin
+      m_nRC <= 1'b1;
+    end
+  end
+
   assign Q = m_Q;
-  assign TC = 1'b0;
-  assign nRC = 1'b0;
+  assign TC = (nUD == 1'b0) ? (m_Q == 4'hf) ? 1'b1 : 1'b0 : (m_Q == 4'h0) ? 1'b1 : 1'b0;
+  assign nRC = m_nRC;
 
 endmodule // LOGIC_74HC191

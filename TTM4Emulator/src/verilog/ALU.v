@@ -7,6 +7,7 @@ module ALU(
   input  wire       CLK,
   input  wire [3:0] X,
   input  wire [3:0] Y,
+  input  wire [3:0] IM,
   input  wire [1:0] SEL,
   input  wire       nFA_EN,
   input  wire       nAND_EN,
@@ -20,6 +21,7 @@ module ALU(
   wire [3:0] m_LOADDATA;
   wire [3:0] m_REGDATA;
   wire [3:0] m_ADDEROUT;
+  wire [3:0] m_Y;
   wire       m_CO;
   wire       m_CI;
   wire [3:0] m_ANDOUT;
@@ -28,7 +30,6 @@ module ALU(
   wire [7:0] m_DECODEROUT;
   wire [3:0] m_COUNTEROUT;
   wire [3:0] m_STOREDATA;
-
 
   LOGIC_74HC283 U_ADDER(
     .A(m_LOADDATA),
@@ -80,6 +81,20 @@ module ALU(
     .O(m_STOREDATA)
   );
 
+  LOGIC_74HC257 U_Y_TRISTATE(
+    .S(SEL[0]),
+    .nOE(1'b0),
+    .IN0(IM),
+    .IN1(Y),
+    .Y(m_Y)
+  );
+
+  LOGIC_4030 U_Y_XOR(
+    .A(m_Y),
+    .B({SEL[1], SEL[1], SEL[1], SEL[1]}),
+    .X(m_REGDATA)
+  );
+
   LOGIC_74HC259 U_DECODER(
     .A(m_ADDEROUT[2:0]),
     .D(1'b1),
@@ -100,7 +115,7 @@ module ALU(
   );
 
   assign m_LOADDATA = X;
-  assign m_REGDATA = Y;
+  assign m_CI = SEL[1];
   assign STOREDATA = m_STOREDATA;
   assign Z_FLAG = m_COUNTEROUT[0];
   assign C_FLAG = m_COUNTEROUT[1];

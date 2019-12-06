@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/SP
+vLOGIC_74HC191
+Z1 !s110 1575382769
+!i10b 1
+!s100 zoI8_8]M;eUEHdYT573n^2
+IC6Glel:1<Idl5WHKmR_S@0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575381910
+8../../../src/verilog/logic/74HC191.v
+F../../../src/verilog/logic/74HC191.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575382769.000000
+!s107 ../../../src/verilog/logic/74HC191.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC191.v|
+!i113 1
+Z5 o-work rtl_work
+Z6 tCvgOpt 0
+n@l@o@g@i@c_74@h@c191
+vLOGIC_74HC221
+R1
+!i10b 1
+!s100 :dIzPmR5H3MG`GeIX0Hh01
+IS:E_AO5XMEVbHZC3S`_hT2
+R2
+R0
+w1575382761
+8../../../src/verilog/logic/74HC221.v
+F../../../src/verilog/logic/74HC221.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC221.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC221.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c221
+vLOGIC_74HC245
+R1
+!i10b 1
+!s100 WVl5W_d<6n6bjWl0jHKoi0
+Ia4LOmk@giX>`D430^CPlE3
+R2
+R0
+w1574622861
+8../../../src/verilog/logic/74HC245.v
+F../../../src/verilog/logic/74HC245.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC245.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC245.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c245
+vLOGIC_SRM2B256SLMX
+R1
+!i10b 1
+!s100 13KTAE2bWAEKSN]O6iIE]1
+IOj@U=_mgZfRLIZF>[^;he2
+R2
+R0
+w1575218892
+8../../../src/verilog/logic/SRM2B256SLMX.v
+F../../../src/verilog/logic/SRM2B256SLMX.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/SRM2B256SLMX.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/SRM2B256SLMX.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_@s@r@m2@b256@s@l@m@x
+vSP
+Z7 !s110 1575382770
+!i10b 1
+!s100 L0Z02IP_lR[1?TRkK8?X?2
+IKX9SW1iKlO1dzBbh2ZYHA0
+R2
+R0
+w1575382733
+8../../../src/verilog/SP.v
+F../../../src/verilog/SP.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1575382770.000000
+!s107 ../../../src/verilog/SP.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/SP.v|
+!i113 1
+R5
+R6
+n@s@p
+vSRAM
+R1
+!i10b 1
+!s100 n7[DJDbJBoX0ohJ;>LUdJ3
+ID?Fi_mPh>`lkRTkcK?AOi0
+R2
+R0
+w1574586550
+8../../../src/verilog/ip/SRAM.v
+F../../../src/verilog/ip/SRAM.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/ip/SRAM.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/ip/SRAM.v|
+!i113 1
+R5
+R6
+n@s@r@a@m
+vtb_SP
+R7
+!i10b 1
+!s100 DVQ^XF33KEG1hnXjEKeAX1
+I`2=6]fg_DABPRDAJJg=I:1
+R2
+R0
+w1575381995
+8tb_SP.v
+Ftb_SP.v
+L0 7
+R3
+r1
+!s85 0
+31
+R8
+!s107 tb_SP.v|
+!s90 -reportprogress|300|-work|rtl_work|tb_SP.v|
+!i113 1
+R5
+R6
+ntb_@s@p

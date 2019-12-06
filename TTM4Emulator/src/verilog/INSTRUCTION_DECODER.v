@@ -28,27 +28,6 @@ module INSTRUCTION_DECODER(
   output wire       SPC
   );
 
-  wire [1:0] m_SEL;
-  wire m_ST_EN;
-  wire [7:0] m_MPOUT1;
-  wire [7:0] m_MPOUT2;
-
-  assign m_SEL[0] = AND4IN(OP[4], ~SR[2], SR[0], LR[1]);
-  assign m_SEL[1] = ~m_nFA_EN & OP[1];
-  assign m_ST_EN  = m_SEL[1] & OP[0];
-
-  LOGIC_74HC138 U_MULTIPLEXER1(
-    .A(LR),
-    .E(3'b100),
-    .nY(m_MPOUT1)
-  );
-
-  LOGIC_74HC138 U_MULTIPLEXER2(
-    .A(SR),
-    .E({1'b1, m_ST_EN, 1'b0}),
-    .nY(m_MPOUT2)
-  );
-
   wire [4:0] m_nOP;
   wire m_nFA_EN;
   wire m_nAND_EN;
@@ -91,20 +70,41 @@ module INSTRUCTION_DECODER(
     .nC(1'b0)
   );
 
+  wire [1:0] m_SEL;
+  wire m_ST_EN;
+  wire [7:0] m_MPOUT1;
+  wire [7:0] m_MPOUT2;
+
+  assign m_SEL[0] = AND4IN(OP[4], ~SR[2], SR[0], LR[1]);
+  assign m_SEL[1] = ~m_nFA_EN & OP[1];
+  assign m_ST_EN  = m_SEL[1] & OP[0];
+
+  LOGIC_74HC138 U_MULTIPLEXER1(
+    .A(LR),
+    .E(3'b100),
+    .nY(m_MPOUT1)
+  );
+
+  LOGIC_74HC138 U_MULTIPLEXER2(
+    .A(SR),
+    .E({1'b1, m_ST_EN, 1'b0}),
+    .nY(m_MPOUT2)
+  );
+
   function NAND4IN(
     input A, input B, input C, input D
-  );
-  begin
-    NAND4IN = ~(A & B & C & D);
-  end
+    );
+    begin
+      NAND4IN = ~(A & B & C & D);
+    end
   endfunction
 
   function AND4IN(
     input A, input B, input C, input D
-  );
-  begin
-    AND4IN = (A & B & C & D);
-  end
+    );
+    begin
+      AND4IN = (A & B & C & D);
+    end
   endfunction
 
   assign SEL      = m_SEL;

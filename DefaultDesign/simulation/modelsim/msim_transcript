@@ -262,3 +262,5 @@ do tb_top.do
 # ** Failure: Simulation end!
 #    Time: 4031 us  Iteration: 0  Process: /tb_top/ALWAYS File: tb_top.vhd
 # Break in Process ALWAYS at tb_top.vhd line 81
+# End time: 17:11:09 on Dec 01,2019, Elapsed time: 111:57:38
+# Errors: 0, Warnings: 0
