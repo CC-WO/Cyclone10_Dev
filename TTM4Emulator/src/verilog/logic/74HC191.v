@@ -36,7 +36,7 @@ module LOGIC_74HC191(
 
   reg m_nRC;
 
-  always @(CP) begin
+  always @(negedge CP) begin
     if (CP == 1'b0) begin
       if (m_Q == 4'hf | m_Q == 4'h0) begin
         m_nRC <= 1'b0;

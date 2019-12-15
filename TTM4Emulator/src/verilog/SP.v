@@ -18,12 +18,12 @@ module SP(
   wire [7:0]  m_TRI_A;
   wire [7:0]  m_TRI_B;
 
-  assign STOREBUS[3:0] = (SP_D_nU == 1'b0) ? 4'hz              : m_TRI_A;
+  assign STOREBUS[3:0] = (SP_D_nU == 1'b0) ? 4'hz              : m_TRI_A[3:0];
   assign m_TRI_A       = (SP_D_nU == 1'b0) ? {STOREBUS, 4'h0}  : 8'hzz;
   assign m_TRI_B       = (SP_D_nU == 1'b0) ? 8'hzz             : {4'h0, m_IO[3:0]};
   assign m_IO          = (SP_D_nU == 1'b0) ? 8'bzz             : {4'h0, m_TRI_B[3:0]};
   assign m_A      = {7'b000_0000, m_Q2, m_Q1};
-  assign SP       = m_A;
+  assign SP       = m_A[7:0];
 
   LOGIC_SRM2B256SLMX U_SRAM(
     .CLK(CLK),

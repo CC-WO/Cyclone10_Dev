@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/INSTRUCTION_DECODER
 vINSTRUCTION_DECODER
-Z1 !s110 1575223201
+Z1 !s110 1575776188
 !i10b 1
-!s100 8fla2Vj@jzXJgGo`>m5bF0
-IPBQaeBLlPnno8NZ1WgIJK0
+!s100 0TSVanjADEi;Ra^Ni=TB@0
+I48kOZAD=l7OP1c0A7U9=63
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1575221507
+w1575776184
 8../../../src/verilog/INSTRUCTION_DECODER.v
 F../../../src/verilog/INSTRUCTION_DECODER.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1575223201.000000
+Z4 !s108 1575776188.000000
 !s107 ../../../src/verilog/INSTRUCTION_DECODER.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/INSTRUCTION_DECODER.v|
 !i113 1
@@ -31,7 +31,7 @@ Z5 o-work rtl_work
 Z6 tCvgOpt 0
 n@i@n@s@t@r@u@c@t@i@o@n_@d@e@c@o@d@e@r
 vLOGIC_4053
-R1
+Z7 !s110 1575776187
 !i10b 1
 !s100 NI[lP]6`5?@2m;MO^8gmX1
 Ig32FgVUT3?OoKNoES[aH91
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z8 !s108 1575776187.000000
 !s107 ../../../src/verilog/logic/4053.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/4053.v|
 !i113 1
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 ../../../src/verilog/logic/74HC138.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC138.v|
 !i113 1
@@ -75,13 +75,13 @@ R5
 R6
 n@l@o@g@i@c_74@h@c138
 vLOGIC_74HC221
-R1
+R7
 !i10b 1
-!s100 jC0GLRnBK0JaTfFeKg^642
-IKh>LQVfQJZ>`G;KWOZeF^2
+!s100 :dIzPmR5H3MG`GeIX0Hh01
+IS:E_AO5XMEVbHZC3S`_hT2
 R2
 R0
-w1574618775
+w1575382761
 8../../../src/verilog/logic/74HC221.v
 F../../../src/verilog/logic/74HC221.v
 L0 5
@@ -89,7 +89,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 ../../../src/verilog/logic/74HC221.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC221.v|
 !i113 1

@@ -79,10 +79,7 @@ module top(
     .nIRU_OUT(m_nIRU_OUT),
     .PA(m_PC),
     .LOADBUS(m_LOADBUS),
-    .STOREBUS_JP1(m_STOREBUS),
-    .STOREBUS_JP2(m_STOREBUS),
-    .STOREBUS_OR1(m_STOREBUS),
-    .STOREBUS_OR2(m_STOREBUS),
+    .STOREBUS(m_STOREBUS),
     .OR(m_OR),
     .IR(m_IR)
   );

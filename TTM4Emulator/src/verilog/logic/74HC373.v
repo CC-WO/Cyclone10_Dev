@@ -11,8 +11,8 @@ module LOGIC_74HC373(
 
   reg [7:0] m_Q;
 
-  always @(LE or D) begin
-    if (LE) begin
+  always @(posedge LE) begin
+    if (LE == 1'b1) begin
       m_Q <= D;
     end
     else begin

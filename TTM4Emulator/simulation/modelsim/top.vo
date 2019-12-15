@@ -16,7 +16,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
-// DATE "11/23/2019 18:53:00"
+// DATE "12/11/2019 00:39:39"
 
 // 
 // Device: Altera 10CL006YU256I7G Package UFBGA256
@@ -29,26 +29,29 @@
 `timescale 1 ps/ 1 ps
 
 module top (
-	clk,
-	KEY,
+	RST,
+	CLK,
 	LED_BO,
-	LED);
-input 	clk;
-input 	[3:0] KEY;
+	LED,
+	KEY);
+input 	RST;
+input 	CLK;
 output 	LED_BO;
 output 	[3:0] LED;
+input 	[3:0] KEY;
 
 // Design Ports Information
-// clk	=>  Location: PIN_E1,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// KEY[0]	=>  Location: PIN_M15,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// KEY[1]	=>  Location: PIN_M16,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// KEY[2]	=>  Location: PIN_E16,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// KEY[3]	=>  Location: PIN_E15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// RST	=>  Location: PIN_R9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// CLK	=>  Location: PIN_E1,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // LED_BO	=>  Location: PIN_T7,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // LED[0]	=>  Location: PIN_R16,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // LED[1]	=>  Location: PIN_P16,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // LED[2]	=>  Location: PIN_N15,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // LED[3]	=>  Location: PIN_N16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// KEY[0]	=>  Location: PIN_M15,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// KEY[1]	=>  Location: PIN_M16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// KEY[2]	=>  Location: PIN_E16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// KEY[3]	=>  Location: PIN_E15,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
 wire gnd;
@@ -62,7 +65,8 @@ assign unknown = 1'bx;
 tri1 devclrn;
 tri1 devpor;
 tri1 devoe;
-wire \clk~input_o ;
+wire \RST~input_o ;
+wire \CLK~input_o ;
 wire \KEY[0]~input_o ;
 wire \KEY[1]~input_o ;
 wire \KEY[2]~input_o ;
@@ -144,14 +148,24 @@ defparam \LED[3]~output .bus_hold = "false";
 defparam \LED[3]~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOIBUF_X0_Y11_N8
-cyclone10lp_io_ibuf \clk~input (
-	.i(clk),
+// Location: IOIBUF_X18_Y0_N22
+cyclone10lp_io_ibuf \RST~input (
+	.i(RST),
 	.ibar(gnd),
-	.o(\clk~input_o ));
+	.o(\RST~input_o ));
 // synopsys translate_off
-defparam \clk~input .bus_hold = "false";
-defparam \clk~input .simulate_z_as = "z";
+defparam \RST~input .bus_hold = "false";
+defparam \RST~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y11_N8
+cyclone10lp_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: IOIBUF_X34_Y12_N15

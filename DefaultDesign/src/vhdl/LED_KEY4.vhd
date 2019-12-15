@@ -20,7 +20,11 @@ architecture RTL of LED_KEY4 is
 
 begin
 
-  PRO_LED_OUT1 : process(rst, clk)
+  -- LED_OUT1
+  led_out1 <= X"0";
+
+  -- LED_OUT2
+  PRO_LED_OUT2 : process(rst, clk)
   begin
     if (rst = '1') then
       led_cnt <= (others => '0');
@@ -36,9 +40,6 @@ begin
     end if;
   end process ; -- PRO_LED_OUT1
 
-  led_out1 <= X"0";
-
-  -- LED_OUT2
   led_out2 <= led;
 
 end RTL; -- RTL

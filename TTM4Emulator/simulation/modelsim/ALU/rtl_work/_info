@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/ALU
 vALU
-Z1 !s110 1575226129
+Z1 !s110 1575779302
 !i10b 1
 !s100 DKmkF5hC4^;cc<<PN`ha43
 Im9G99a`@;QRh^VlU7o2;B3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1575226129.000000
+Z4 !s108 1575779301.000000
 !s107 ../../../src/verilog/ALU.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/ALU.v|
 !i113 1
@@ -31,7 +31,7 @@ Z5 o-work rtl_work
 Z6 tCvgOpt 0
 n@a@l@u
 vLOGIC_4030
-Z7 !s110 1575226128
+Z7 !s110 1575779301
 !i10b 1
 !s100 @BDckkI0g2[ia2aTI<oF51
 IgLOonf`b`LADalGHdkKO`2
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1575226128.000000
+!s108 1575779300.000000
 !s107 ../../../src/verilog/logic/4030.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/4030.v|
 !i113 1
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 ../../../src/verilog/logic/74HC08.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC08.v|
 !i113 1
@@ -89,7 +89,7 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 ../../../src/verilog/logic/74HC125.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC125.v|
 !i113 1
@@ -111,7 +111,7 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 ../../../src/verilog/logic/74HC161.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC161.v|
 !i113 1
@@ -133,7 +133,7 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 ../../../src/verilog/logic/74HC257.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC257.v|
 !i113 1
@@ -155,7 +155,7 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 ../../../src/verilog/logic/74HC259.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC259.v|
 !i113 1
@@ -163,7 +163,7 @@ R5
 R6
 n@l@o@g@i@c_74@h@c259
 vLOGIC_74HC283
-R1
+R7
 !i10b 1
 !s100 5HQA<KaXA0^_XEeN7kkEU0
 I_5^eddTH<U5W:KG`I<ZlM0
@@ -199,7 +199,7 @@ R3
 r1
 !s85 0
 31
-R8
+R4
 !s107 ../../../src/verilog/logic/74HC32.v|
 !s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC32.v|
 !i113 1
@@ -213,7 +213,7 @@ R1
 If@8T_TB<LXHZLg<VYcK>=0
 R2
 R0
-w1575226117
+w1575308497
 8tb_ALU.v
 Ftb_ALU.v
 L0 7
@@ -221,7 +221,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1575779302.000000
 !s107 tb_ALU.v|
 !s90 -reportprogress|300|-work|rtl_work|tb_ALU.v|
 !i113 1

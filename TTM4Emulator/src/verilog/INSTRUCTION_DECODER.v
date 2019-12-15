@@ -60,7 +60,6 @@ module INSTRUCTION_DECODER(
   );
 
   LOGIC_74HC221 U_MULTIVIBRATOR(
-    .CLK(CLK),
     .nA(1'b0),
     .B(m_SP_D_nU),
     .nR(1'b1),

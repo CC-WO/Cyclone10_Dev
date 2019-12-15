@@ -66,6 +66,7 @@ set_location_assignment PIN_R16 -to LED[0]
 set_location_assignment PIN_T7 -to LED_BO
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_location_assignment PIN_E1 -to CLK
+set_global_assignment -name SDC_FILE top.out.sdc
 set_global_assignment -name VERILOG_FILE src/verilog/top.v
 set_global_assignment -name VERILOG_FILE src/verilog/clock_divider.v
 set_global_assignment -name VERILOG_FILE src/verilog/chatter.v
