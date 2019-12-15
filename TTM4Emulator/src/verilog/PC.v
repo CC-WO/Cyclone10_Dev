@@ -1,7 +1,7 @@
 module PC(
   input  wire       RST,
   input  wire       CLK,
-  input  wire       nPC_LD,
+  input  wire       PC_nLD,
   input  wire       nPC_OPEN,
   input  wire [7:0] DATAIN,
   output wire [7:0] PA
@@ -14,7 +14,7 @@ module PC(
   LOGIC_74HC161 U_COUNTER1(
     .CK(CLK),
     .nCLR(RST),
-    .nLOAD(nPC_LD),
+    .nLOAD(PC_nLD),
     .ENP(1'b1),
     .INT(1'b1),
     .DATAIN(DATAIN[3:0]),
@@ -25,7 +25,7 @@ module PC(
   LOGIC_74HC161 U_COUNTER2(
     .CK(CLK),
     .nCLR(RST),
-    .nLOAD(nPC_LD),
+    .nLOAD(PC_nLD),
     .ENP(1'b1),
     .INT(m_CO),
     .DATAIN(DATAIN[7:4]),

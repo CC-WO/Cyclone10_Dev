@@ -6,7 +6,7 @@ module MEMORY(
   inout wire [4:0]  OP,
   input wire        nOE,
   input wire        nWE,
-  input wire [7:0]  ADD
+  input wire [7:0]  PA
   );
 
   wire [14:0] m_MEM1_A;
@@ -36,14 +36,14 @@ module MEMORY(
   assign LR             = (nOE == 1'b0) ? m_MEM1_IO[6:4] : 3'bzzz;
   assign SR[0]          = (nOE == 1'b0) ? m_MEM1_IO[7]   : 1'bz;
   assign SR[2:1]        = (nOE == 1'b0) ? m_MEM2_IO[1:0] : 2'bzz;
-  assign OP             = (nOE == 1'b0) ? m_MEM1_IO[6:2] : 5'bzzzzz;
+  assign OP             = (nOE == 1'b0) ? m_MEM2_IO[6:2] : 5'bzzzzz;
   assign m_MEM1_IO[3:0] = (nOE == 1'b0) ? 4'bzzzz        : IM;
   assign m_MEM1_IO[6:4] = (nOE == 1'b0) ? 3'bzzz         : LR;
   assign m_MEM1_IO[7]   = (nOE == 1'b0) ? 1'bz           : SR[0];
   assign m_MEM2_IO[1:0] = (nOE == 1'b0) ? 2'bzz          : SR[2:1];
   assign m_MEM2_IO[6:2] = (nOE == 1'b0) ? 5'bzzzzz       : OP;
   assign m_MEM2_IO[7]   = (nOE == 1'b0) ? 1'bz: 1'b0;
-  assign m_MEM1_A = {7'b0000000, ADD};
-  assign m_MEM2_A = {7'b0000000, ADD};
+  assign m_MEM1_A       = {7'b0000000, PA};
+  assign m_MEM2_A       = {7'b0000000, PA};
 
-endmodule // MEMORy
+endmodule // MEMORY

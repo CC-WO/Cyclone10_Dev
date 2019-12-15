@@ -9,7 +9,7 @@ module tb_REGISTERS(
 
   wire       tb_RST;
   wire       tb_CLK;
-  reg        tb_nPC_LD;
+  reg        tb_PC_nLD;
   reg        tb_nPC_OPEN;
   reg        tb_nJRD_ST;
   reg        tb_nJRU_ST;
@@ -55,14 +55,14 @@ module tb_REGISTERS(
   assign tb_IR = IR;
 
   initial begin
-    tb_nPC_LD = 1'b1;
+    tb_PC_nLD = 1'b1;
     // Release Reset
     # (`TB_CYCLE * `TB_RESET_COUNT * 2)
     // Wait
     # (`TB_CYCLE * 20)
-    tb_nPC_LD = 1'b0;
+    tb_PC_nLD = 1'b0;
     # (`TB_CYCLE)
-    tb_nPC_LD = 1'b1;
+    tb_PC_nLD = 1'b1;
   end
 
   initial begin
@@ -71,10 +71,6 @@ module tb_REGISTERS(
     tb_nJRU_ST = 1'b1;
     tb_nORD_ST = 1'b1;
     tb_nORU_ST = 1'b1;
-    tb_nIRU_OUT = 1'b0;
-    tb_nIRD_OUT = 1'b0;
-    tb_nJRU_OUT = 1'b0;
-    tb_nJRD_OUT = 1'b0;
     // Release Reset
     # (`TB_CYCLE * `TB_RESET_COUNT * 2)
     // Wait
@@ -158,7 +154,7 @@ module tb_REGISTERS(
   REGISTERS U_REGISTERS(
     .RST(tb_RST),
     .CLK(tb_CLK),
-    .nPC_LD(tb_nPC_LD),
+    .PC_nLD(tb_PC_nLD),
     .nPC_OPEN(tb_nPC_OPEN),
     .nJRD_ST(tb_nJRD_ST),
     .nJRU_ST(tb_nJRU_ST),

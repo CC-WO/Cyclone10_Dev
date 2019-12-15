@@ -8,7 +8,6 @@ vmap work rtl_work
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/top.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/clock_divider.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/chatter.v}
-vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/TTM4.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTERS.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/PC.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/MEMORY.v}
@@ -28,7 +27,6 @@ vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC191.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC221.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC245.v}
-vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC257.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC259.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC283.v}
 vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic {C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/logic/74HC373.v}

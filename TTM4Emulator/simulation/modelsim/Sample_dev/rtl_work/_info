@@ -1,0 +1,581 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/simulation/modelsim/Sample_dev
+vALU
+Z1 !s110 1576427562
+!i10b 1
+!s100 DKmkF5hC4^;cc<<PN`ha43
+Im9G99a`@;QRh^VlU7o2;B3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575225799
+8../../../src/verilog/ALU.v
+F../../../src/verilog/ALU.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1576427562.000000
+!s107 ../../../src/verilog/ALU.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/ALU.v|
+!i113 1
+Z5 o-work rtl_work
+Z6 tCvgOpt 0
+n@a@l@u
+vINSTRUCTION_DECODER
+R1
+!i10b 1
+!s100 3HQWIj9NOAnFBdco3HKJc1
+I_@bU^ij[KGlhDX7o3zHgG3
+R2
+R0
+w1576426924
+8../../../src/verilog/INSTRUCTION_DECODER.v
+F../../../src/verilog/INSTRUCTION_DECODER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/INSTRUCTION_DECODER.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/INSTRUCTION_DECODER.v|
+!i113 1
+R5
+R6
+n@i@n@s@t@r@u@c@t@i@o@n_@d@e@c@o@d@e@r
+vLOGIC_4030
+R1
+!i10b 1
+!s100 @BDckkI0g2[ia2aTI<oF51
+IgLOonf`b`LADalGHdkKO`2
+R2
+R0
+w1574581797
+8../../../src/verilog/logic/4030.v
+F../../../src/verilog/logic/4030.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/4030.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/4030.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_4030
+vLOGIC_4053
+R1
+!i10b 1
+!s100 NI[lP]6`5?@2m;MO^8gmX1
+Ig32FgVUT3?OoKNoES[aH91
+R2
+R0
+w1574616863
+8../../../src/verilog/logic/4053.v
+F../../../src/verilog/logic/4053.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/4053.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/4053.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_4053
+vLOGIC_74HC08
+Z7 !s110 1576427560
+!i10b 1
+!s100 cPhgD1DaXn[]SW9I8T5Bc1
+IPB^3hX49Ub:GEHl7aYPY>0
+R2
+R0
+w1574583215
+8../../../src/verilog/logic/74HC08.v
+F../../../src/verilog/logic/74HC08.v
+L0 5
+R3
+r1
+!s85 0
+31
+Z8 !s108 1576427560.000000
+!s107 ../../../src/verilog/logic/74HC08.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC08.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c08
+vLOGIC_74HC125
+Z9 !s110 1576427561
+!i10b 1
+!s100 jc:1W[1JIl^C?aZozHKO20
+If8VmBa:SCG1ahDjVgDARU1
+R2
+R0
+w1574788722
+8../../../src/verilog/logic/74HC125.v
+F../../../src/verilog/logic/74HC125.v
+L0 5
+R3
+r1
+!s85 0
+31
+Z10 !s108 1576427561.000000
+!s107 ../../../src/verilog/logic/74HC125.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC125.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c125
+vLOGIC_74HC138
+R9
+!i10b 1
+!s100 b]bR@PCadN_K146NB8aWI1
+IIk2DP2OhLEQAMF:?KA@=63
+R2
+R0
+w1575223011
+8../../../src/verilog/logic/74HC138.v
+F../../../src/verilog/logic/74HC138.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC138.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC138.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c138
+vLOGIC_74HC161
+R9
+!i10b 1
+!s100 8=1;_;bCQk^^[XGbhN`_V3
+I1N47]CC<mYSY6aYFJ8LCh3
+R2
+R0
+w1575207274
+8../../../src/verilog/logic/74HC161.v
+F../../../src/verilog/logic/74HC161.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC161.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC161.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c161
+vLOGIC_74HC191
+R9
+!i10b 1
+!s100 la]:abQ198`fR`o0G:]<C1
+IQl[[L:fbBaJgH3?[1:dem0
+R2
+R0
+w1576379027
+8../../../src/verilog/logic/74HC191.v
+F../../../src/verilog/logic/74HC191.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC191.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC191.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c191
+vLOGIC_74HC221
+R9
+!i10b 1
+!s100 :dIzPmR5H3MG`GeIX0Hh01
+IS:E_AO5XMEVbHZC3S`_hT2
+R2
+R0
+w1575382761
+8../../../src/verilog/logic/74HC221.v
+F../../../src/verilog/logic/74HC221.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC221.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC221.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c221
+vLOGIC_74HC245
+R9
+!i10b 1
+!s100 WVl5W_d<6n6bjWl0jHKoi0
+Ia4LOmk@giX>`D430^CPlE3
+R2
+R0
+w1574622861
+8../../../src/verilog/logic/74HC245.v
+F../../../src/verilog/logic/74HC245.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC245.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC245.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c245
+vLOGIC_74HC257
+R9
+!i10b 1
+!s100 YUWmBPlRkGFOEl:Bgn=981
+I<8L>?8CH7j4SbiGgjh6VV1
+R2
+R0
+w1574584791
+8../../../src/verilog/logic/74HC257.v
+F../../../src/verilog/logic/74HC257.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC257.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC257.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c257
+vLOGIC_74HC259
+R1
+!i10b 1
+!s100 n6a^Be3_H>]U2UTg1LXZ]2
+I86DaQ5Ec29nYdmazYTJ7`0
+R2
+R0
+w1576379420
+8../../../src/verilog/logic/74HC259.v
+F../../../src/verilog/logic/74HC259.v
+L0 5
+R3
+r1
+!s85 0
+31
+R10
+!s107 ../../../src/verilog/logic/74HC259.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC259.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c259
+vLOGIC_74HC283
+R1
+!i10b 1
+!s100 5HQA<KaXA0^_XEeN7kkEU0
+I_5^eddTH<U5W:KG`I<ZlM0
+R2
+R0
+w1574581828
+8../../../src/verilog/logic/74HC283.v
+F../../../src/verilog/logic/74HC283.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC283.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC283.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c283
+vLOGIC_74HC32
+R7
+!i10b 1
+!s100 J3c^AfjDd_UB2BVV<8dX20
+IF[`jZOHYK9]kkK>4YgEZQ3
+R2
+R0
+w1574583275
+8../../../src/verilog/logic/74HC32.v
+F../../../src/verilog/logic/74HC32.v
+L0 5
+R3
+r1
+!s85 0
+31
+R8
+!s107 ../../../src/verilog/logic/74HC32.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC32.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c32
+vLOGIC_74HC373
+R1
+!i10b 1
+!s100 0JoU8P_ingO:?Wi=HB4Yn1
+I<N`SfF^:7GAlGOcaf;3<20
+R2
+R0
+w1576405066
+8../../../src/verilog/logic/74HC373.v
+F../../../src/verilog/logic/74HC373.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/74HC373.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/74HC373.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_74@h@c373
+vLOGIC_SRM2B256SLMX
+R1
+!i10b 1
+!s100 =PkbOddNn@eYXd]kKQmJg3
+InWC_e?[l]m37zO[j[E`?C0
+R2
+R0
+w1576417306
+8../../../src/verilog/logic/SRM2B256SLMX.v
+F../../../src/verilog/logic/SRM2B256SLMX.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../../../src/verilog/logic/SRM2B256SLMX.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/logic/SRM2B256SLMX.v|
+!i113 1
+R5
+R6
+n@l@o@g@i@c_@s@r@m2@b256@s@l@m@x
+vMEMORY
+Z11 !s110 1576427563
+!i10b 1
+!s100 =ODgM764ojeWlHDjjl]6k2
+IEdk4l4_lW[ZTjJBY^c<IW3
+R2
+R0
+w1576417843
+8../../../src/verilog/MEMORY.v
+F../../../src/verilog/MEMORY.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z12 !s108 1576427563.000000
+!s107 ../../../src/verilog/MEMORY.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/MEMORY.v|
+!i113 1
+R5
+R6
+n@m@e@m@o@r@y
+vPC
+R11
+!i10b 1
+!s100 SC0zFgS;E8>:P_X[RBzV;2
+IPG@g_ClSSRkKS0<4^T1QM1
+R2
+R0
+w1576424468
+8../../../src/verilog/PC.v
+F../../../src/verilog/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 ../../../src/verilog/PC.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/PC.v|
+!i113 1
+R5
+R6
+n@p@c
+vREGISTER_A
+R11
+!i10b 1
+!s100 [T@d=O^dH?cQM5S1db0>P1
+I[2B_@W@TBbUB7SX94h1;12
+R2
+R0
+w1574788765
+8../../../src/verilog/REGISTER_A.v
+F../../../src/verilog/REGISTER_A.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 ../../../src/verilog/REGISTER_A.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/REGISTER_A.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r_@a
+vREGISTER_B
+R11
+!i10b 1
+!s100 =Qne4aX;>2^[U0:JSOe<R3
+IOe5gDZh4Anl9f?BlF1PHi2
+R2
+R0
+w1574788803
+8../../../src/verilog/REGISTER_B.v
+F../../../src/verilog/REGISTER_B.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 ../../../src/verilog/REGISTER_B.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/REGISTER_B.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r_@b
+vREGISTERS
+R11
+!i10b 1
+!s100 DCZaBENKZ3BcD<DGfU@5X0
+I:P>TGXic1IbRmJoN0;FPH2
+R2
+R0
+w1576427425
+8../../../src/verilog/REGISTERS.v
+F../../../src/verilog/REGISTERS.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 ../../../src/verilog/REGISTERS.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/REGISTERS.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r@s
+vSP
+R11
+!i10b 1
+!s100 8gF1;YSb@>GN@L4?noejn3
+Ik8;F2^h4dj1`zHL`0KhQh3
+R2
+R0
+w1576378986
+8../../../src/verilog/SP.v
+F../../../src/verilog/SP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R12
+!s107 ../../../src/verilog/SP.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/SP.v|
+!i113 1
+R5
+R6
+n@s@p
+vSRAM
+R7
+!i10b 1
+!s100 n7[DJDbJBoX0ohJ;>LUdJ3
+ID?Fi_mPh>`lkRTkcK?AOi0
+R2
+R0
+w1574586550
+8../../../src/verilog/ip/SRAM.v
+F../../../src/verilog/ip/SRAM.v
+L0 39
+R3
+r1
+!s85 0
+31
+R8
+!s107 ../../../src/verilog/ip/SRAM.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/ip/SRAM.v|
+!i113 1
+R5
+R6
+n@s@r@a@m
+vtb_sample_dev
+!s110 1576427564
+!i10b 1
+!s100 GFES0`=D6QWSJodX2X_4H1
+I09boceZ:PY;>]J^Bm]mRO1
+R2
+R0
+w1576427554
+8tb_sample_dev.v
+Ftb_sample_dev.v
+L0 7
+R3
+r1
+!s85 0
+31
+R12
+!s107 tb_sample_dev.v|
+!s90 -reportprogress|300|-work|rtl_work|tb_sample_dev.v|
+!i113 1
+R5
+R6
+vTTM4
+R11
+!i10b 1
+!s100 JVN7TfJ54baOn7_Xc[Vj_0
+IAXEZb2z=g>gAd8HO8<hR^1
+R2
+R0
+w1576423995
+8../../../src/verilog/TTM4.v
+F../../../src/verilog/TTM4.v
+L0 5
+R3
+r1
+!s85 0
+31
+R12
+!s107 ../../../src/verilog/TTM4.v|
+!s90 -reportprogress|300|-work|rtl_work|../../../src/verilog/TTM4.v|
+!i113 1
+R5
+R6
+n@t@t@m4

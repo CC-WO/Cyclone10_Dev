@@ -33,7 +33,7 @@ module tb_INSTRUCTION_DECODER(
   wire       tb_nXOR_EN;
   wire       tb_nSK_EN;
   wire       tb_SP_D_nU;
-  wire       tb_nPC_LD;
+  wire       tb_PC_nLD;
   wire       tb_SPC;
 
   // Reset
@@ -175,7 +175,7 @@ module tb_INSTRUCTION_DECODER(
     .nXOR_EN(tb_nXOR_EN),
     .nSK_EN(tb_nSK_EN),
     .SP_D_nU(tb_SP_D_nU),
-    .nPC_LD(tb_nPC_LD),
+    .PC_nLD(tb_PC_nLD),
     .SPC(tb_SPC)
   );
 

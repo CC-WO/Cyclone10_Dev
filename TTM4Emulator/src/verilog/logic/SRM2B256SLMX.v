@@ -12,32 +12,18 @@ module LOGIC_SRM2B256SLMX(
   inout wire [7:0]  IO
   );
 
-  reg sramclk;
-  wire m_sramclk;
   wire [7:0] m_io_out;
   wire [7:0] m_io_in;
 
-  always @(posedge CLK) begin
-    if (CLK == 1'b1) begin
-      if ((nWE == 1'b0 & nOE == 1'b1) | (nWE == 1'b1 & nOE == 1'b0)) begin
-        sramclk <= 1'b1;
-      end
-      else begin
-        sramclk <= 1'b0;
-      end
-    end
-  end
-
   SRAM U_MEMORY(
     .address (A),
-    .clock (m_sramclk),
+    .clock (CLK),
     .data (m_io_in),
     .rden (~nOE),
     .wren (~nWE),
     .q (m_io_out)
   );
 
-  assign m_sramclk = sramclk;
   assign m_io_in = (nOE == 1'b0) ? 8'hzz : IO;
   assign IO = (nOE == 1'b0) ? m_io_out : 8'hzz;
 

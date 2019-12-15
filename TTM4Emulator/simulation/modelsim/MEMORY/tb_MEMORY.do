@@ -29,7 +29,7 @@ add wave -position end  sim:/tb_MEMORY/tb_CLK
 add wave -position end  sim:/tb_MEMORY/tb_nOE
 add wave -position end  sim:/tb_MEMORY/tb_nWE
 add wave -position end  sim:/tb_MEMORY/U_MEMORY/U_SRAM1/sramclk
-add wave -position end  sim:/tb_MEMORY/tb_ADD
+add wave -position end  sim:/tb_MEMORY/tb_PA
 add wave -position end  sim:/tb_MEMORY/U_MEMORY/m_MEM1_A
 add wave -position end  sim:/tb_MEMORY/U_MEMORY/m_MEM2_A
 add wave -position end  sim:/tb_MEMORY/U_MEMORY/m_MEM1_A

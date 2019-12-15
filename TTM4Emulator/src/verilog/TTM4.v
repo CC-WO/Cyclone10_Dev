@@ -38,14 +38,14 @@ module TTM4(
   wire         m_nWE;
   wire         m_nSK_EN;
   wire         m_SP_D_nU;
-  wire         m_nPC_LD;
+  wire         m_PC_nLD;
   wire         m_SPC;
   wire         m_nPC_OPEN;
 
   REGISTERS U_REGISTERS(
     .RST(RST),
     .CLK(CLK),
-    .nPC_LD(m_nPC_LD),
+    .PC_nLD(m_PC_nLD),
     .nPC_OPEN(m_nPC_OPEN),
     .nJRD_ST(m_nJRD_ST),
     .nJRU_ST(m_nJRU_ST),
@@ -70,7 +70,7 @@ module TTM4(
     .OP(m_INSTRUCTION[14:10]),
     .nOE(m_nOE),
     .nWE(m_nWE),
-    .ADD(m_PC)
+    .PA(m_PC)
   );
 
   INSTRUCTION_DECODER U_INSTRUCTION_DECODER(
@@ -99,7 +99,7 @@ module TTM4(
     .nXOR_EN(m_nXOR_EN),
     .nSK_EN(m_nSK_EN),
     .SP_D_nU(m_SP_D_nU),
-    .nPC_LD(m_nPC_LD),
+    .PC_nLD(m_PC_nLD),
     .SPC(m_SPC)
   );
 
@@ -137,6 +137,7 @@ module TTM4(
     .CLK(CLK),
     .X(m_LOADBUS),
     .Y(m_COUNTERBUS),
+    .IM(m_INSTRUCTION[3:0]),
     .SEL(m_SEL),
     .nFA_EN(m_nFA_EN),
     .nAND_EN(m_nAND_EN),

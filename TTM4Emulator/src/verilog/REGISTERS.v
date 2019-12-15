@@ -1,7 +1,7 @@
 module REGISTERS(
     input  wire       RST,
     input  wire       CLK,
-    input  wire       nPC_LD,
+    input  wire       PC_nLD,
     input  wire       nPC_OPEN,
     input  wire       nJRD_ST,
     input  wire       nJRU_ST,
@@ -30,7 +30,7 @@ module REGISTERS(
   PC U_PC(
     .RST(RST),
     .CLK(CLK),
-    .nPC_LD(nPC_LD),
+    .PC_nLD(PC_nLD),
     .nPC_OPEN(nPC_OPEN),
     .DATAIN({m_JP2, m_JP1}),
     .PA(m_PA)
@@ -41,7 +41,7 @@ module REGISTERS(
     .nCLR(RST),
     .nLOAD(nJRD_ST),
     .ENP(1'b0),
-    .INT(1'b1),
+    .INT(1'b0),
     .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_JP1)
@@ -52,7 +52,7 @@ module REGISTERS(
     .nCLR(RST),
     .nLOAD(nJRU_ST),
     .ENP(1'b0),
-    .INT(1'b1),
+    .INT(1'b0),
     .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_JP2)
@@ -63,7 +63,7 @@ module REGISTERS(
     .nCLR(RST),
     .nLOAD(nORD_ST),
     .ENP(1'b0),
-    .INT(1'b1),
+    .INT(1'b0),
     .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_OR1)
@@ -74,7 +74,7 @@ module REGISTERS(
     .nCLR(RST),
     .nLOAD(nORU_ST),
     .ENP(1'b0),
-    .INT(1'b1),
+    .INT(1'b0),
     .DATAIN(STOREBUS),
     .CO(),
     .COUNTER(m_OR2)

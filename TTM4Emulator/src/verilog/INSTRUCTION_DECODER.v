@@ -24,7 +24,7 @@ module INSTRUCTION_DECODER(
   output wire       nXOR_EN,
   output wire       nSK_EN,
   output wire       SP_D_nU,
-  output wire       nPC_LD,
+  output wire       PC_nLD,
   output wire       SPC
   );
 
@@ -35,7 +35,10 @@ module INSTRUCTION_DECODER(
   wire m_nXOR_EN;
   wire m_nSK_EN;
   wire m_SP_D_nU;
-  wire m_nPC_LD;
+  wire m_PC_nLD;
+  wire m_PC_nLD_1;
+  wire m_PC_nLD_2;
+  wire m_PC_nLD_3;
   wire m_COM2;
   wire m_COM3;
   wire m_nQ;
@@ -47,17 +50,10 @@ module INSTRUCTION_DECODER(
   assign m_nXOR_EN = NAND4IN(1'b1, OP[0], m_nOP[1], m_nOP[2]);
   assign m_nSK_EN  = NAND4IN(OP[3], m_nOP[2], m_nOP[1], 1'b1);
   assign m_SP_D_nU = nSK_EN & OP[0];
-  assign m_nPC_LD = (m_COM3 & OP[1]) | ~(OP[2] | OP[1]) | ~OP[3];
-
-  LOGIC_4053 U_MULTIPLEXER3(
-    .INH(1'b0),
-    .A(m_SP_D_nU),
-    .B(OP[2]),
-    .C(OP[0]),
-    .Y0({CLK,  C_FLAG, m_COM2}),
-    .Y1({m_nQ, Z_FLAG, ~m_COM2}),
-    .COM({SPC, m_COM2, m_COM3})
-  );
+  assign m_PC_nLD_1 = m_COM3 & OP[1];
+  assign m_PC_nLD_2 = ~(OP[2] | OP[1]);
+  assign m_PC_nLD_3 = m_PC_nLD_1 | m_PC_nLD_2;
+  assign m_PC_nLD   = m_PC_nLD_3 | ~OP[3];
 
   LOGIC_74HC221 U_MULTIVIBRATOR(
     .nA(1'b0),
@@ -90,6 +86,16 @@ module INSTRUCTION_DECODER(
     .nY(m_MPOUT2)
   );
 
+  LOGIC_4053 U_MULTIPLEXER3(
+    .INH(1'b0),
+    .A(m_SP_D_nU),
+    .B(OP[2]),
+    .C(OP[0]),
+    .Y0({CLK,  C_FLAG, m_COM2}),
+    .Y1({m_nQ, Z_FLAG, ~m_COM2}),
+    .COM({SPC, m_COM2, m_COM3})
+  );
+
   function NAND4IN(
     input A, input B, input C, input D
     );
@@ -113,7 +119,7 @@ module INSTRUCTION_DECODER(
   assign nXOR_EN  = m_nXOR_EN;
   assign nSK_EN   = m_nSK_EN;
   assign SP_D_nU  = m_SP_D_nU;
-  assign nPC_LD   = m_nPC_LD;
+  assign PC_nLD   = m_PC_nLD;
   assign nA_OUT   = m_MPOUT1[2];
   assign nB_OUT   = m_MPOUT1[3];
   assign nIRU_OUT = m_MPOUT1[4];

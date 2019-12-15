@@ -15,7 +15,7 @@ module tb_MEMORY(
   wire [4:0]  tb_OP;
   reg         tb_nOE;
   reg         tb_nWE;
-  reg  [7:0]  tb_ADD;
+  reg  [7:0]  tb_PA;
 
   // Reset
   reg RESET;
@@ -38,72 +38,73 @@ module tb_MEMORY(
   assign tb_CLK = CLK_50M;
 
   // Test
-  reg  [14:0] tb_IO;
-  assign tb_IM = tb_IO[3:0];
-  assign tb_LR = tb_IO[6:4];
-  assign tb_SR = tb_IO[9:7];
-  assign tb_OP = tb_IO[14:10];
+  reg  [14:0] IO;
+
+  assign tb_IM = IO[3:0];
+  assign tb_LR = IO[6:4];
+  assign tb_SR = IO[9:7];
+  assign tb_OP = IO[14:10];
 
   initial begin
-  tb_nOE = 1'b1;
-  tb_nWE = 1'b1;
-  tb_ADD = 8'h00;
-  tb_IO  = 15'b000_0000_0000_0000;
-  // Release Reset
-  # (`TB_CYCLE * `TB_RESET_COUNT * 2)
-  // Write
-  // Wait
-  # (`TB_CYCLE * 4)
-  tb_ADD = 8'h00;
-  tb_IO  = 15'b000_1111_0000_0000;
-  # (`TB_CYCLE)
-  tb_nWE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nWE = 1'b1;
+    tb_nOE = 1'b1;
+    tb_nWE = 1'b1;
+    tb_PA = 8'h00;
+    IO  = 15'b000_0000_0000_0000;
+    // Release Reset
+    # (`TB_CYCLE * `TB_RESET_COUNT * 2)
+    // Write
+    // Wait
+    # (`TB_CYCLE * 4)
+    tb_PA = 8'h00;
+    IO  = 15'b000_1111_0000_0000;
+    # (`TB_CYCLE)
+    tb_nWE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nWE = 1'b1;
 
-  # (`TB_CYCLE)
-  tb_ADD = 8'h01;
-  tb_IO  = 15'b000_0000_1111_0000;
-  # (`TB_CYCLE)
-  tb_nWE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nWE = 1'b1;
+    # (`TB_CYCLE)
+    tb_PA = 8'h01;
+    IO  = 15'b000_0000_1111_0000;
+    # (`TB_CYCLE)
+    tb_nWE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nWE = 1'b1;
 
-  # (`TB_CYCLE)
-  tb_ADD = 8'h02;
-  tb_IO  = 15'b000_0000_0000_1111;
-  # (`TB_CYCLE)
-  tb_nWE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nWE = 1'b1;
+    # (`TB_CYCLE)
+    tb_PA = 8'h02;
+    IO  = 15'b000_0000_0000_1111;
+    # (`TB_CYCLE)
+    tb_nWE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nWE = 1'b1;
 
-  // Read
-  // Wait
-  # (`TB_CYCLE * 4)
-  tb_ADD = 8'h00;
-  tb_IO  = 15'bzzz_zzzz_zzzz_zzzz;
-  # (`TB_CYCLE)
-  tb_nOE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nOE = 1'b1;
+    // Read
+    // Wait
+    # (`TB_CYCLE * 4)
+    tb_PA = 8'h00;
+    IO  = 15'bzzz_zzzz_zzzz_zzzz;
+    # (`TB_CYCLE)
+    tb_nOE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nOE = 1'b1;
 
-  # (`TB_CYCLE)
-  tb_ADD = 8'h01;
-  tb_nOE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nOE = 1'b1;
+    # (`TB_CYCLE)
+    tb_PA = 8'h01;
+    tb_nOE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nOE = 1'b1;
 
-  # (`TB_CYCLE)
-  tb_ADD = 8'h02;
-  tb_nOE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nOE = 1'b1;
+    # (`TB_CYCLE)
+    tb_PA = 8'h02;
+    tb_nOE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nOE = 1'b1;
 
-  # (`TB_CYCLE)
-  tb_ADD = 8'h03;
-  tb_nOE = 1'b0;
-  # (`TB_CYCLE)
-  tb_nOE = 1'b1;
+    # (`TB_CYCLE)
+    tb_PA = 8'h03;
+    tb_nOE = 1'b0;
+    # (`TB_CYCLE)
+    tb_nOE = 1'b1;
   end
 
   // Finish
@@ -129,7 +130,7 @@ module tb_MEMORY(
     .OP(tb_OP),
     .nOE(tb_nOE),
     .nWE(tb_nWE),
-    .ADD(tb_ADD)
+    .PA(tb_PA)
   );
 
 endmodule
