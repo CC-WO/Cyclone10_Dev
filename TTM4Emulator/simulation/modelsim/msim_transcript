@@ -19657,3 +19657,7 @@ do tb_sample_dev.do
 # ** Note: $stop    : tb_sample_dev.v(187)
 #    Time: 900 ns  Iteration: 0  Instance: /tb_sample_dev
 # Break in Module tb_sample_dev at tb_sample_dev.v line 187
+add wave -position 0  sim:/tb_sample_dev/tb_LOADBUS
+add wave -position 3  sim:/tb_sample_dev/tb_STOREBUS
+add wave -position 25  sim:/tb_sample_dev/U_INSTRUCTION_DECODER/m_ST_EN
+add wave -position 30  sim:/tb_sample_dev/tb_nSK_EN
