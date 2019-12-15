@@ -3,6 +3,7 @@ source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/top.
 source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/top.v
 source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/clock_divider.v
 source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/chatter.v
+source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/TTM4.v
 source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/REGISTERS.v
 source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/PC.v
 source_file = 1, C:/intelFPGA_lite/18.1/projects/Cyclone10_dev/TTM4Emulator/src/verilog/MEMORY.v
