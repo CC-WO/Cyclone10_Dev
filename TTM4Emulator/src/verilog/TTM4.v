@@ -118,8 +118,8 @@ module TTM4(
     .CLK(CLK),
     .nA_ST(m_nA_ST),
     .nA_OUT(m_nA_OUT),
-    .STOREDATA(m_STOREBUS),
-    .LOADDATA(m_LOADBUS)
+    .STOREBUS(m_STOREBUS),
+    .LOADBUS(m_LOADBUS)
   );
 
   REGISTER_B U_REGSITERB(
@@ -127,8 +127,8 @@ module TTM4(
     .CLK(CLK),
     .nB_ST(m_nB_ST),
     .nB_OUT(m_nB_OUT),
-    .STOREDATA(m_STOREBUS),
-    .LOADDATA(m_LOADBUS),
+    .STOREBUS(m_STOREBUS),
+    .LOADBUS(m_LOADBUS),
     .COUNTER(m_COUNTERBUS)
   );
 
@@ -145,7 +145,7 @@ module TTM4(
     .nXOR_EN(m_nXOR_EN),
     .Z_FLAG(m_Z_FLAG),
     .C_FLAG(m_C_FLAG),
-    .STOREDATA(m_STOREBUS)
+    .STOREBUS(m_STOREBUS)
   );
 
 endmodule

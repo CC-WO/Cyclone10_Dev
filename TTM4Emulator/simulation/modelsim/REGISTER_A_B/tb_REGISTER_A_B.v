@@ -11,8 +11,8 @@ module tb_REGISTER_A_B(
   wire       tb_CLK;
   reg        tb_nB_ST;
   reg        tb_nB_OUT;
-  wire [3:0] tb_STOREDATA;
-  wire [3:0] tb_LOADDATA;
+  wire [3:0] tb_STOREBUS;
+  wire [3:0] tb_LOADBUS;
   wire [3:0] tb_COUNTER;
 
   // Reset
@@ -36,12 +36,12 @@ module tb_REGISTER_A_B(
   assign tb_CLK = CLK_50M;
 
   // Test
-  reg [3:0] STOREDATA;
+  reg [3:0] STOREBUS;
 
-  assign tb_STOREDATA = STOREDATA;
+  assign tb_STOREBUS = STOREBUS;
 
   initial begin
-  STOREDATA = 4'b1010;
+  STOREBUS = 4'b1010;
   tb_nB_ST = 1'b1;
   tb_nB_OUT = 1'b0;
   // Release Reset
@@ -69,14 +69,14 @@ module tb_REGISTER_A_B(
     end
   end
 
-  // instance
+  // Instance
   REGISTER_B U_REGISTERS_B(
     .RST(tb_RST),
     .CLK(tb_CLK),
     .nB_ST(tb_nB_ST),
     .nB_OUT(tb_nB_OUT),
-    .STOREDATA(tb_STOREDATA),
-    .LOADDATA(tb_LOADDATA),
+    .STOREBUS(tb_STOREBUS),
+    .LOADBUS(tb_LOADBUS),
     .COUNTER(tb_COUNTER)
   );
 

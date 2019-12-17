@@ -150,7 +150,7 @@ module tb_REGISTERS(
     end
   end
 
-  // instance
+  // Instance
   REGISTERS U_REGISTERS(
     .RST(tb_RST),
     .CLK(tb_CLK),

@@ -148,7 +148,7 @@ module tb_INSTRUCTION_DECODER(
     end
   end
 
-  // instance
+  // Instance
   INSTRUCTION_DECODER UINSTRUCTION_DECODER(
     .CLK(tb_CLK),
     .Z_FLAG(tb_Z_FLAG),

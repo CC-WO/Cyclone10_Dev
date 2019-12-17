@@ -1,6 +1,8 @@
 module REGISTERS(
     input  wire       RST,
     input  wire       CLK,
+    inout  wire [3:0] STOREBUS,
+    inout  wire [3:0] LOADBUS,
     input  wire       PC_nLD,
     input  wire       nPC_OPEN,
     input  wire       nJRD_ST,
@@ -12,8 +14,6 @@ module REGISTERS(
     input  wire       nIRD_OUT,
     input  wire       nIRU_OUT,
     output wire [7:0] PA,
-    inout  wire [3:0] LOADBUS,
-    inout  wire [3:0] STOREBUS,
     output      [7:0] OR,
     input       [7:0] IR
   );

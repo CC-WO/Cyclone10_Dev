@@ -43,7 +43,7 @@ add wave -position end  sim:/tb_ALU/tb_nOR_EN
 add wave -position end  sim:/tb_ALU/tb_nXOR_EN
 add wave -position end  sim:/tb_ALU/tb_Z_FLAG
 add wave -position end  sim:/tb_ALU/tb_C_FLAG
-add wave -position end  sim:/tb_ALU/tb_STOREDATA
+add wave -position end  sim:/tb_ALU/tb_STOREBUS
 add wave -position end  sim:/tb_ALU/U_ALU/m_LOADDATA
 add wave -position end  sim:/tb_ALU/U_ALU/m_REGDATA
 add wave -position end  sim:/tb_ALU/U_ALU/m_ADDEROUT

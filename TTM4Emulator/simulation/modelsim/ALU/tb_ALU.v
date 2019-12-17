@@ -19,7 +19,7 @@ module tb_ALU(
   reg        tb_nXOR_EN;
   wire       tb_Z_FLAG;
   wire       tb_C_FLAG;
-  wire [3:0] tb_STOREDATA;
+  wire [3:0] tb_STOREBUS;
 
   // Reset
   reg RESET;
@@ -98,7 +98,7 @@ module tb_ALU(
     end
   end
 
-  // instance
+  // Instance
   ALU U_ALU(
     .RST(tb_RST),
     .CLK(tb_CLK),
@@ -112,7 +112,7 @@ module tb_ALU(
     .nXOR_EN(tb_nXOR_EN),
     .Z_FLAG(tb_Z_FLAG),
     .C_FLAG(tb_C_FLAG),
-    .STOREDATA(tb_STOREDATA)
+    .STOREBUS(tb_STOREBUS)
   );
 
 endmodule

@@ -28,8 +28,8 @@ add wave -position end  sim:/tb_REGISTER_A_B/tb_RST
 add wave -position end  sim:/tb_REGISTER_A_B/tb_CLK
 add wave -position end  sim:/tb_REGISTER_A_B/tb_nB_ST
 add wave -position end  sim:/tb_REGISTER_A_B/tb_nB_OUT
-add wave -position end  sim:/tb_REGISTER_A_B/tb_STOREDATA
-add wave -position end  sim:/tb_REGISTER_A_B/tb_LOADDATA
+add wave -position end  sim:/tb_REGISTER_A_B/tb_STOREBUS
+add wave -position end  sim:/tb_REGISTER_A_B/tb_LOADBUS
 add wave -position end  sim:/tb_REGISTER_A_B/tb_COUNTER
 
 # quit -force

@@ -70,7 +70,7 @@ module tb_SP(
     end
   end
 
-  // instance
+  // Instance
   SP U_SP(
     .RST(tb_RST),
     .CLK(tb_CLK),

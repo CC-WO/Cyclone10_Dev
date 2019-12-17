@@ -46,11 +46,15 @@ vlog -work rtl_work {tb_sample_dev.v}
 vsim -t 1ps -L altera_mf_ver -lib rtl_work tb_sample_dev
 
 # Prepare Wave Display
+add wave -divider SYSTEM
 add wave -position end  sim:/tb_sample_dev/tb_RST
 add wave -position end  sim:/tb_sample_dev/tb_CLK
+add wave -divider  "BUS"
 add wave -position end  sim:/tb_sample_dev/tb_PA
 add wave -position end  sim:/tb_sample_dev/tb_LOADBUS
 add wave -position end  sim:/tb_sample_dev/tb_STOREBUS
+add wave -divider  "INTERNAL"
+add wave -divider  "MEMORY"
 add wave -position end  sim:/tb_sample_dev/tb_nOE
 add wave -position end  sim:/tb_sample_dev/tb_nWE
 add wave -position end  sim:/tb_sample_dev/IO
@@ -58,6 +62,21 @@ add wave -position end  sim:/tb_sample_dev/tb_IM
 add wave -position end  sim:/tb_sample_dev/tb_LR
 add wave -position end  sim:/tb_sample_dev/tb_SR
 add wave -position end  sim:/tb_sample_dev/tb_OP
+add wave -divider  "LOADBUS_CONTROL"
+add wave -position end  sim:/tb_sample_dev/tb_nJRU_OUT
+add wave -position end  sim:/tb_sample_dev/tb_nJRD_OUT
+add wave -position end  sim:/tb_sample_dev/tb_nIRU_OUT
+add wave -position end  sim:/tb_sample_dev/tb_nIRD_OUT
+add wave -position end  sim:/tb_sample_dev/tb_SP_D_nU
+add wave -position end  sim:/tb_sample_dev/tb_nA_OUT
+add wave -position end  sim:/tb_sample_dev/tb_nB_OUT
+add wave -divider  "STOREBUS_CONTROL"
+add wave -position end  sim:/tb_sample_dev/tb_nSK_EN
+add wave -position end  sim:/tb_sample_dev/tb_nFA_EN
+add wave -position end  sim:/tb_sample_dev/tb_nAND_EN
+add wave -position end  sim:/tb_sample_dev/tb_nOR_EN
+add wave -position end  sim:/tb_sample_dev/tb_nXOR_EN
+add wave -divider  "INSTRUCTION_DECODER"
 add wave -position end  sim:/tb_sample_dev/tb_nA_OUT
 add wave -position end  sim:/tb_sample_dev/tb_nB_OUT
 add wave -position end  sim:/tb_sample_dev/tb_nIRU_OUT

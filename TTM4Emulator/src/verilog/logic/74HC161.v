@@ -14,29 +14,23 @@ module LOGIC_74HC161(
 );
 
   reg [3:0] m_COUNTER;
-  wire m_CO;
 
   always @(posedge CK or negedge nCLR) begin
     if (nCLR == 1'b0) begin
       m_COUNTER <= 4'b0000;
     end
-    else if (CK == 1'b1) begin
-      if (nLOAD == 0) begin
-        m_COUNTER <= DATAIN;
-      end
-      else begin
-        if (ENP == 1 & INT == 1) begin
-          m_COUNTER <= m_COUNTER + 1'b1;
-        end
-        else begin
-          m_COUNTER <= m_COUNTER;
-        end
-      end
+    else if (nLOAD == 1'b0) begin
+      m_COUNTER <= DATAIN;
+    end
+    else if (ENP == 1'b1 & INT == 1'b1) begin
+      m_COUNTER <= m_COUNTER + 1'b1;
+    end
+    else begin
+      m_COUNTER <= m_COUNTER;
     end
   end
 
   assign COUNTER = m_COUNTER;
-  assign m_CO = (m_COUNTER == 4'b1111) ? 1'b1 : 1'b0;
-  assign CO = m_CO;
+  assign CO = (m_COUNTER == 4'b1111) ? 1'b1 : 1'b0;
 
 endmodule // LOGIC_74HC161

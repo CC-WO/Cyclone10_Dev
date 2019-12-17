@@ -32,7 +32,7 @@ module tb_sample(
 
   // Test
 
-  // instance
+  // Instance
   TTM4 U_TTM4(
     .RST(tb_RST),
     .CLK(tb_CLK)
